@@ -50,5 +50,8 @@ export function TextLink({ href, children }: { href: string; children: React.Rea
 }
 
 export function FileCard({ children }: { children: React.ReactNode }) {
-    return <>{children}</>;
+    return <>
+        <style>{'.ifc-shell{max-width:1040px;margin:0 auto;padding:24px;}@media (min-width:768px){.ifc-shell{padding:36px;}}'}</style>
+        <div className="ifc-shell">{children}</div>
+    </>;
 }
