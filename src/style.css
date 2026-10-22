@@ -40,7 +40,7 @@ body { background: #f7f2e9; color: #2a2521; }
 }
 
 .ew-venture { display: grid; gap: 16px; padding: 16px 0 8px; }
-@media (min-width: 640px) { .ew-venture { grid-template-columns: 84px 1fr; align-items: start; } }
+@media (min-width: 640px) { .ew-venture { grid-template-columns: 1fr; align-items: start; } }
 .ew-venture img { width: 62px; display: block; mix-blend-mode: multiply; }
 .ew-venture h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; font-size: 24px; margin: 0 0 6px; }
 .ew-venture p { margin: 0 0 8px; font-size: 15px; line-height: 1.6; color: #3a332c; }

@@ -1392,7 +1392,6 @@ He also shared something thoughtful about choosing his school: choosing the one 
 
 Very grateful for Ezekiel Wood sharing his story with me, and for every person who's shown me the same thing: you just have to ask!   
 
--
 You don't have to set foot in San Francisco to know who's actually building the future!
 
 Over the last few months, I've had the opportunity to get on calls with people building solutions in tech in SF.
@@ -1443,7 +1442,6 @@ Shoutout, again, to Vincent Todd for connecting us!
 
 Very grateful to every one of them for sharing their stories, and for every person who's shown me the same thing: you just have to ask!
 
---
 
 P.S. Nominating them as guests for Lemma's Agent Economy Gala during TECH WEEK by a16z, these are definitely the people who should be in that room!
 
@@ -1585,7 +1583,6 @@ It's been quite the journey, but I've found so much joy in hearing people's stor
 
 Very grateful for Jerry sharing his story with me, and for every person who's shown me the same thing: you just have to ask!
 
---
 
 P.S. I met Jerry through the Lightreel AI Fellowship, a great platform for anyone interested in creating content! A few weeks ago, we also found out we're both part of the second Intern Insider cohort, which is awesome for anyone looking into internships!`,order:88,images:["src/photos/stories/9-30-2026-jerry-zhu-0.jpg"]},{date:"10/2/2026",name:"nicholas low",body:`Continuing to tell these stories, one at a time. This one starts with elementary school videos that never went anywhere, and a creator who kept coming back to content anyway.
 
@@ -1875,7 +1872,6 @@ I am endlessly grateful.
 
 If you have a story, I would love to hear it. You just have to ask!
 
---
 
 P.S. If you have an idea you're working on, or even if you're just curious about the world too, I'd love to hear your story! DM me :) And if you're building something, add it to Pitcher!
 
@@ -2054,7 +2050,6 @@ I felt that with L'SPACE too; I wasn't fully ready and went in without much tech
 
 Very grateful for Tami sharing her story with me, and for every person who's shown me the same thing: you just have to ask!
 
---
 
 P.S. Had to reupload for some tweaks! Thanks for understanding :))`,order:97.5,note:"reposted - original post date uncertain",images:["src/photos/stories/10-7-2026-got-reuploaded-tami-maeda-0.jpg","src/photos/stories/10-7-2026-got-reuploaded-tami-maeda-1.jpg"]},{date:"10/16/2026",name:"jasmina holikov",body:`Continuing to tell these stories, one at a time. This one starts with a toy doctor kit filled with water!
 
