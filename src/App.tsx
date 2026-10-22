@@ -153,7 +153,7 @@ function Portfolio() {
                 <div className="ew-stats">
                     <div className="ew-stat"><b>100+</b><span>stories told</span></div>
                     <div className="ew-stat"><b>9+</b><span>countries</span></div>
-                    <div className="ew-stat"><b>315,905</b><span>impressions</span></div>
+                    <div className="ew-stat"><b>319,719</b><span>impressions</span></div>
                 </div>
                 <div className="ew-quote">&ldquo;A bad question is one that&apos;s never asked.&rdquo;</div>
                 <TextLink href="https://www.linkedin.com/in/ellielwang">read the series on linkedin - @ellielwang</TextLink>
