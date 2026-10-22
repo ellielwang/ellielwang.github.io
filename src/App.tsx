@@ -4,7 +4,6 @@ import stories from './stories.js';
 import storyImages from './storyImages.js';
 import './style.css';
 import headshot from './photos/headshot.webp';
-import pitcherLogo from './photos/pitcher-logo.png';
 
 const experience = [
     { name: 'JSV Launchpad', role: 'Venture scout - sourcing founders and learning how early teams actually get built.', dates: "sep 2026 - present" },
@@ -130,7 +129,6 @@ function Portfolio() {
             <section className="ew-section">
                 <div className="ew-section-head"><h2>building</h2><span className="ew-meta">(03)</span></div>
                 <div className="ew-venture">
-                    <img src={pitcherLogo} alt="Pitcher logo" />
                     <div>
                         <h3>Pitcher</h3>
                         <p>Co-founder (June 2026). A professional discovery network for early-stage startups - human-curated, not an algorithm. My cofounder and I connect student founders with the right people through real connections. First pilot open to Georgia founders, live now.</p>
