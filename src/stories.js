@@ -1106,5 +1106,13 @@ export default [
  "images": [
   "src/photos/stories/10-23-2026-enrique-yervez-0.jpg"
  ]
+},
+{
+ "date": "10/24/2026",
+ "name": "umar faheem",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a question I'm still thinking about: what exactly do you want your life to represent?\n\nWhen Umar Faheem and I talked about curating content, he helped me reflect on what I care about most: the message I want to get out to people, and documenting my life along the way!\n\nHe told me he lives in go-to-market (how a company gets its product in front of the people who need it), automation, and content, and what he really wants is to make life easier so people have more time to be together!\n\nUmar has been editing videos since 5th grade, back when he wanted to be a Minecraft YouTuber, drawing inspiration from DanTDM and StopMotion. \n\nNow, that skill shows up in his growth work!\n\nHe loves the craft of editing, and he believes the editing you do yourself carries its own flair.\n\nUmar started in accounting and then found growth and operations, which turned out to be the perfect mix of his interests in tech, business, and creativity.\n\nOne thing that stuck with me the most: his best performing LinkedIn post was about a rejection. \n\nUmar used to feel like he needed an accomplishment every time he posted, until he realized being honest is what connects with people. \n\nRecruiters even started reaching out to him after that!\n\nUmar also calls journaling one of his top five habits. \n\nIt lets him see how his thinking has grown, and he keeps it separate from his work goals.\n\nHis advice to me was to find the intersection between what the world needs and what you love (the Japanese framework, Ikigai), put your energy into real projects, and have faith in yourself because you know yourself best!\n\nVery grateful for Umar Faheem sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/10-24-2026-umar-faheem-0.jpg"
+ ]
 }
 ];
