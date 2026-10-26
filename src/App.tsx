@@ -69,7 +69,7 @@ function Masthead() {
         <div className="ew-topline">
             <Link to="/" className="ew-brand"><img src={headshot} alt="" />ellielwang</Link>
             <span className="ew-tl-mid">{today} &middot; {all.length} stories</span>
-            <button className="ew-mode" onClick={toggle} aria-pressed={dusk} aria-label={dusk ? 'Switch to day mode' : 'Switch to dusk mode'}><PixelLotus />{dusk ? 'day' : 'dusk'}</button>
+            <span className="ew-tl-right"><button className="ew-sub" onClick={goNewsletter}>subscribe</button><button className="ew-mode" onClick={toggle} aria-pressed={dusk} aria-label={dusk ? 'Switch to day mode' : 'Switch to dusk mode'}><PixelLotus />{dusk ? 'day' : 'dusk'}</button></span>
         </div>
         <div className="ew-brandrow">
             <div className="ew-title"><Link to="/" className="ew-pub">you just have to ask</Link><div className="ew-by">by Elizabeth (Ellie) Wang</div></div>
@@ -79,10 +79,17 @@ function Masthead() {
             <Link to="/">latest</Link>
             {SECTIONS.map((x) => <Link key={x.slug} to={'/section/' + x.slug}>{x.label}</Link>)}
             <Link to="/stories">all stories</Link>
+            <button className="ew-navbtn" onClick={goNewsletter}>newsletter</button>
             <a href="#about">about</a>
             <a href="#contact">contact</a>
         </nav>
     </header>;
+}
+
+function goNewsletter() {
+    const go = () => { const el = document.getElementById('newsletter'); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); const i = el.querySelector('input'); if (i) setTimeout(() => (i as HTMLInputElement).focus({ preventScroll: true }), 600); } };
+    const h = window.location.hash;
+    if (h && h !== '#' && h !== '#/') { window.location.hash = '/'; setTimeout(go, 400); } else go();
 }
 
 function Thumb({ s }: { s: Story }) {

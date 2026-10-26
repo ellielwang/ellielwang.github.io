@@ -188,3 +188,8 @@ body { background: #fbe4ea; }
 .ew-by { margin-top: 8px; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--soft); }
 @media (max-width: 600px) { .ew-pub { font-size: 40px; } .ew-topline .ew-brand { font-size: 20px; } }
 .ew { overflow-x: clip; }
+
+.ew-tl-right { display: flex; align-items: center; gap: 8px; }
+.ew-sub { font: inherit; letter-spacing: .08em; text-transform: uppercase; padding: 5px 14px; border-radius: 999px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); cursor: pointer; }
+.ew-navbtn { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.ew .ew-topline .ew-sub { color: var(--bg); background: var(--ink); border-color: var(--ink); }
