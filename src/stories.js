@@ -1114,5 +1114,13 @@ export default [
  "images": [
   "src/photos/stories/10-24-2026-umar-faheem-0.jpg"
  ]
+},
+{
+ "date": "10/25/2026",
+ "name": "kyan navaja",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a KFC and two words: why not?\n\nKyan Navaja is currently in his second year studying economics and finance at Queen Mary University of London. \n\nHe found the ambassador program and LinkedIn posting challenge Evan Kong curated while scrolling this platform!\n\nAt first, he thought being an econ and finance student in London, he maybe didn\u2019t necessarily need to do it.\n\nThen, sitting at KFC with his family, a little bored, he asked himself: why not?\n\nHe told me he can always think of 100 reasons not to do something, but the 101st reason to do it is simply, \"why not?\"\n\nThat mindset shows up everywhere for him!\n\nKyan started playing piano at 12, got pulled into the choir as a soprano, and has been reading stoicism since he was 14.\n\nOne thing he said stuck with me: creating is essential, especially because an idea can disappear quickly if you don\u2019t turn it into something!\n\nWe both shared that when we weren\u2019t creating, life often felt like being stuck underwater, and creating brought clarity.\n\nKyan also talked about vulnerability as a strength.\n\nAt an insight day at a firm, he had a real, honest conversation with a stranger in the lunch line who turned out to be a manager!\n\nKyan told me real relationships start with being willing to be honest about what you want or when you need help.\n\nWe shared a question we both ask ourselves: would I rather live with the pain of discipline, or the pain of regret?\n\nFor me, that showed up in writing this series. I was scared of getting started, and doing it every day was something I had to adjust to alongside my studies and other commitments as a full time student. It's been super fulfilling to me!\n\nWe also shared a line: after every prolonged period of hardship and uncertainty, there is a period of quantum leaps across your life. The only requirement is that you don't give up on yourself.\n\nThere's a lot happening in the background while I write this series, including rejections and ups and downs, but I'm treating everything as a learning experience and reframing it that way. \n\nThat mindset has been important for me!\n\nVery grateful for Kyan Navaja sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/10-25-2026-kyan-navaja-0.jpg"
+ ]
 }
 ];
