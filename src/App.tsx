@@ -6,6 +6,7 @@ import storyImages from './storyImages.js';
 import './fonts.css';
 import './style.css';
 import headshot from './photos/headshot.webp';
+import lotusArt from './photos/lotus.png';
 
 type Story = { date: string; name: string; body: string; images: string[] };
 const all: Story[] = stories as Story[];
@@ -32,13 +33,7 @@ function Icon({ kind }: { kind: string }) {
 }
 
 function Lotus({ className }: { className?: string }) {
-    const petals = [[0, 1], [-24, .92], [24, .92], [-48, .8], [48, .8], [-72, .64], [72, .64]];
-    return <svg className={className} viewBox="0 0 200 130" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" aria-hidden="true">
-        {[...petals].reverse().map(([r, s], i) => <path key={i} pathLength={1} style={{ ['--i' as string]: i } as React.CSSProperties} transform={`rotate(${r} 100 112) translate(100 112) scale(${s}) translate(-100 -112)`} d="M100 112 C78 86 78 42 100 6 C122 42 122 86 100 112 Z" />)}
-        <path d="M100 112 C92 96 92 70 100 44 C108 70 108 96 100 112 Z" />
-        <path d="M20 118 C60 124 80 124 100 120 C120 124 140 124 180 118" />
-        <path d="M52 126 C80 130 120 130 148 126" />
-    </svg>;
+    return <img className={className} src={lotusArt} alt="" aria-hidden="true" />;
 }
 
 function StoryModal({ story, onClose }: { story: Story; onClose: () => void }) {
@@ -277,7 +272,8 @@ function Contact() {
 
 function Foot() {
     return <footer>
-        <div className="ew-sign"><PixelLotus className="ew-pix" />ellielwang</div>
+        <div className="ew-sign"><Lotus className="ew-pix" />ellielwang</div>
+        <p className="ew-credit">Lotus designed by Ava Chapagain</p>
         <ul className="ew-icons">
             <li><a href="https://www.linkedin.com/in/ellielwang" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon kind="in" /></a></li>
             <li><a href="https://x.com/ellielwang" target="_blank" rel="noreferrer" aria-label="X"><Icon kind="x" /></a></li>

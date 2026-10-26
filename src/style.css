@@ -201,3 +201,12 @@ body { background: #fbe4ea; }
 .ew-contact .ew-cform label { justify-items: center; }
 .ew-contact .ew-cform input, .ew-contact .ew-cform textarea { width: 100%; text-align: left; box-sizing: border-box; }
 .ew-contact .ew-pills { justify-content: center; }
+
+.ew-mast-lotus { width: 130px; opacity: 1; }
+.ew-lead-lotus { opacity: .22; }
+.ew-lead-lotus, .ew-deco { height: auto; }
+.ew-deco-b { opacity: .5; }
+.ew.dusk .ew-lead-lotus { opacity: .3; } .ew.dusk .ew-deco-b { opacity: .45; }
+.ew-pix { width: 56px; height: auto; }
+.ew-credit { font-size: 13px; opacity: .7; margin: 6px 0 0; }
+.ew-lead-lotus { display: none; }
