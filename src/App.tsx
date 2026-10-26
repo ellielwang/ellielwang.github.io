@@ -66,12 +66,20 @@ function Masthead() {
             <Lotus className="ew-mast-lotus" />
         </div>
         <nav className="ew-secnav" aria-label="Sections">
-            <Link to="/">latest</Link>
-            {SECTIONS.map((x) => <Link key={x.slug} to={'/section/' + x.slug}>{x.label}</Link>)}
-            <Link to="/stories">all stories</Link>
-            <button className="ew-navbtn" onClick={goNewsletter}>newsletter</button>
-            <a href="#about">about</a>
-            <a href="#contact">contact</a>
+            <div className="ew-marq">
+                <div className="ew-marq-track">
+                    {[0, 1].map((k) => <div className="ew-marq-set" key={k} aria-hidden={k === 1 ? true : undefined}>
+                        <Link to="/" tabIndex={k === 1 ? -1 : undefined}>latest</Link>
+                        {SECTIONS.map((x) => <Link key={x.slug} to={'/section/' + x.slug} tabIndex={k === 1 ? -1 : undefined}>{x.label}</Link>)}
+                        <Link to="/stories" tabIndex={k === 1 ? -1 : undefined}>all stories</Link>
+                    </div>)}
+                </div>
+            </div>
+            <div className="ew-navfix">
+                <button className="ew-navbtn" onClick={goNewsletter}>newsletter</button>
+                <a href="#about">about</a>
+                <a href="#contact">contact</a>
+            </div>
         </nav>
     </header>;
 }

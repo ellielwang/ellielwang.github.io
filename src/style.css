@@ -218,3 +218,15 @@ body { background: #fbe4ea; }
 .ew-snow { margin: 26px 0 0; max-width: 340px; }
 .ew-snow img { width: 100%; height: auto; display: block; }
 .ew-h1 { font: inherit; margin: 0; }
+
+.ew-secnav { flex-wrap: nowrap; align-items: center; gap: 24px; overflow: hidden; }
+.ew-marq { flex: 1 1 auto; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); }
+.ew-marq-track { display: flex; width: max-content; animation: ewmarq 55s linear infinite; }
+.ew-marq:hover .ew-marq-track, .ew-marq:focus-within .ew-marq-track { animation-play-state: paused; }
+.ew-marq-set { display: flex; gap: 26px; padding-right: 26px; flex: none; }
+.ew-navfix { display: flex; gap: 18px; flex: none; }
+.ew-navfix a, .ew-navfix .ew-navbtn { white-space: nowrap; text-decoration: none; }
+@keyframes ewmarq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .ew-marq { overflow-x: auto; scrollbar-width: none; } .ew-marq-track { animation: none; } .ew-marq-set[aria-hidden] { display: none; } }
+@media (max-width: 760px) { .ew-secnav { gap: 14px; overflow: hidden; } .ew-navfix { gap: 12px; } }
+@media (max-width: 760px) { .ew-secnav { flex-wrap: wrap; row-gap: 8px; } .ew-marq { flex: 1 1 100%; } .ew-navfix { flex: 1 1 100%; justify-content: flex-end; border-top: 1px solid var(--line); padding-top: 8px; } }
