@@ -193,3 +193,11 @@ body { background: #fbe4ea; }
 .ew-sub { font: inherit; letter-spacing: .08em; text-transform: uppercase; padding: 5px 14px; border-radius: 999px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); cursor: pointer; }
 .ew-navbtn { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
 .ew .ew-topline .ew-sub { color: var(--bg); background: var(--ink); border-color: var(--ink); }
+
+.ew-contact { text-align: center; }
+.ew-contact .ew-shead { justify-content: center; }
+.ew-contact .ew-clede { margin: 8px auto 20px; text-align: center; }
+.ew-contact .ew-cform { margin: 0 auto; text-align: center; }
+.ew-contact .ew-cform label { justify-items: center; }
+.ew-contact .ew-cform input, .ew-contact .ew-cform textarea { width: 100%; text-align: left; box-sizing: border-box; }
+.ew-contact .ew-pills { justify-content: center; }

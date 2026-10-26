@@ -231,7 +231,7 @@ function Home() {
                 <div>
                     <div className="ew-shead"><h2>about</h2></div>
                     <p>I&rsquo;m a student at the University of Georgia studying Management Information Systems in the Terry College of Business, with a Sociology minor and an Entrepreneurship Certificate.</p>
-                    <p>Born and raised in Georgia, the daughter of immigrants. My mother is from Cambodia and my father is from Taiwan. I&rsquo;ve studied at Oxford University (Biomedical Ethics and Computing Ethics &amp; Society) and traveled Italy and Germany for a Food Industries Maymester.</p>
+                    <p>Born and raised in Georgia, the daughter of immigrants. My mother is from Cambodia and my father is from Taiwan. I&rsquo;ve studied at the University of Oxford (Biomedical Ethics and Computing Ethics &amp; Society) and traveled Italy and Germany for a Food Industries Maymester.</p>
                 </div>
                 <div className="ew-aboutr">
                     <p>I&rsquo;ve played piano since I was 4 and violin since 4th grade, and I started making content at 15 by posting piano videos. Music taught me how to work hard; people taught me why it matters.</p>
@@ -250,7 +250,7 @@ function Newsletter() {
     const [email, setEmail] = React.useState('');
     const [done, setDone] = React.useState(false);
     return <section className="ew-sect ew-news" id="newsletter">
-        <div className="ew-shead"><h2>the <em>newsletter</em></h2></div>
+        <div className="ew-shead"><h2>the <em>&quot;you just have to ask&quot;</em> newsletter</h2></div>
         <p className="ew-clede">New stories in your inbox, so you never have to catch every post. Always free. No paywall.</p>
         <form className="ew-nform" onSubmit={(e) => { e.preventDefault(); setDone(true); }}>
             <input type="email" required value={email} onChange={(e) => { setEmail(e.target.value); setDone(false); }} placeholder="you@email.com" aria-label="email address" />
