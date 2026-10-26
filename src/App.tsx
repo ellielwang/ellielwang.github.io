@@ -67,12 +67,12 @@ function Masthead() {
     const { dusk, toggle } = React.useContext(ThemeCtx);
     return <header className="ew-mast">
         <div className="ew-topline">
-            <span>{today}</span>
-            <span className="ew-tl-mid">you just have to ask &middot; {all.length} stories</span>
+            <Link to="/" className="ew-brand"><img src={headshot} alt="" />ellielwang</Link>
+            <span className="ew-tl-mid">{today} &middot; {all.length} stories</span>
             <button className="ew-mode" onClick={toggle} aria-pressed={dusk} aria-label={dusk ? 'Switch to day mode' : 'Switch to dusk mode'}><PixelLotus />{dusk ? 'day' : 'dusk'}</button>
         </div>
         <div className="ew-brandrow">
-            <Link to="/" className="ew-brand"><img src={headshot} alt="" />ellielwang</Link>
+            <div className="ew-title"><Link to="/" className="ew-pub">you just have to ask</Link><div className="ew-by">by Elizabeth (Ellie) Wang</div></div>
             <Lotus className="ew-mast-lotus" />
         </div>
         <nav className="ew-secnav" aria-label="Sections">
