@@ -62,7 +62,7 @@ function Masthead() {
             <span className="ew-tl-right"><button className="ew-sub" onClick={goNewsletter}>subscribe</button><button className="ew-mode" onClick={toggle} aria-pressed={dusk} aria-label={dusk ? 'Switch to day mode' : 'Switch to dusk mode'}><Lotus className="ew-btn-lotus" />{dusk ? 'day' : 'dusk'}</button></span>
         </div>
         <div className="ew-brandrow">
-            <div className="ew-title"><Link to="/" className="ew-pub">you just have to ask</Link><div className="ew-by">by Elizabeth (Ellie) Wang</div></div>
+            <div className="ew-title"><h1 className="ew-h1"><Link to="/" className="ew-pub">you just have to ask</Link></h1><div className="ew-by">by Elizabeth (Ellie) Wang</div></div>
             <Lotus className="ew-mast-lotus" />
         </div>
         <nav className="ew-secnav" aria-label="Sections">
@@ -120,7 +120,6 @@ function Home() {
                 <aside className="ew-rail">
                     <figure className="ew-arch"><img src={headshot} alt="Ellie Wang standing on a balcony in a black blazer" /></figure>
                     <p className="ew-kicker">UGA &rsquo;29, Terry College of Business</p>
-                    <h1>building community, <em>one genuine conversation</em> at a time</h1>
                     <div className="ew-pills"><a href="#sections">browse by industry</a><a href="https://calendly.com/elizabethlynnwang/30min" target="_blank" rel="noreferrer">book a chat</a></div>
                 </aside>
                 <article className="ew-lead">
@@ -145,7 +144,7 @@ function Home() {
             </section>
 
             <section className="ew-band">
-                <div><h3>cofounder of <u>Pitcher</u></h3><p>A professional discovery network for early-stage startups. <b>Human-curated</b>, not an algorithm. First pilot open to <b>Georgia founders</b>. <a href="https://trypitcher.co" target="_blank" rel="noreferrer">trypitcher.co</a></p></div>
+                <div><h3>cofounder of <u>Pitcher</u></h3><p>A professional discovery network for early-stage startups. <b>Human-curated.</b> First pilot open to <b>Georgia founders</b>. <a href="https://trypitcher.co" target="_blank" rel="noreferrer">trypitcher.co</a></p></div>
                 <div><h3>at <u>school</u></h3><p><b>Management Information Systems</b> at Terry College, with a <b>Sociology</b> minor and an <b>Entrepreneurship</b> certificate</p></div>
                 <div><h3>the <u>series</u></h3><p>You Just Have to Ask: <b>one story every day</b> on LinkedIn since July 4, talking with founders, advocates and students</p></div>
                 <div><h3>building <u>community</u></h3><p>Co-founder and co-president of <b>Lotus Society</b>, a mentorship org for Asian American students at UGA</p></div>
@@ -221,9 +220,9 @@ function Home() {
             <section className="ew-row">
                 <div>
                     <div className="ew-shead"><h2>about the <em>series</em></h2></div>
-                    <p>My daily storytelling series on LinkedIn: one story every day since July 4, 2026, posted at 12:12 PM ET. I talk with young founders, advocates, students, and anyone with a passion for helping the world.</p>
+                    <p>My daily storytelling series on LinkedIn: one story every day since July 4, 2026, posted at 12:12 PM ET. I talk with founders, advocates, students, and anyone with a passion for helping the world.</p>
                     <p>I take handwritten notes during conversations, and guests review their stories before publication. It started because I wanted to give my mentors their flowers. It kept going because everyone has a story worth telling.</p>
-                    <blockquote>&ldquo;A bad question is one that&rsquo;s never asked.&rdquo;</blockquote>
+                    <blockquote>&ldquo;We have two lives, and the second begins when we realize we only have one.&rdquo;</blockquote>
                     <a className="ew-link" href="https://www.linkedin.com/in/ellielwang" target="_blank" rel="noreferrer">read the series on LinkedIn</a>
                 </div>
                 <div>

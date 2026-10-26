@@ -217,3 +217,4 @@ body { background: #fbe4ea; }
 .ew-btn-lotus { width: 24px; height: auto; vertical-align: middle; margin-right: 6px; }
 .ew-snow { margin: 26px 0 0; max-width: 340px; }
 .ew-snow img { width: 100%; height: auto; display: block; }
+.ew-h1 { font: inherit; margin: 0; }
