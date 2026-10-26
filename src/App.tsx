@@ -7,6 +7,7 @@ import './fonts.css';
 import './style.css';
 import headshot from './photos/headshot.webp';
 import lotusArt from './photos/lotus.png';
+import snowPhoto from './photos/snow.jpg';
 
 type Story = { date: string; name: string; body: string; images: string[] };
 const all: Story[] = stories as Story[];
@@ -17,12 +18,6 @@ const titleCase = (n: string) => n.replace(/\b\w/g, (c) => c.toUpperCase());
 
 
 const ThemeCtx = React.createContext<{ dusk: boolean; toggle: () => void }>({ dusk: false, toggle: () => {} });
-const PIX = ['........#........', '...#...###...#...', '..##..#####..##..', '.###.#######.###.', '####.#######.####', '.###############.', '..#############..', '...###########...', '.....#######.....', '~~~~~~~~~~~~~~~~~'];
-function PixelLotus({ className }: { className?: string }) {
-    return <svg className={className} viewBox="0 0 17 10" shapeRendering="crispEdges" aria-hidden="true">
-        {PIX.flatMap((row, y) => [...row].map((c, x) => c === '.' ? null : <rect key={x + '-' + y} x={x} y={y} width="1" height="1" fill={c === '~' ? 'var(--soft)' : (y < 4 ? 'var(--accent)' : 'var(--pix2)')} />))}
-    </svg>;
-}
 function Icon({ kind }: { kind: string }) {
     const p = { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.4, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, 'aria-hidden': true };
     if (kind === 'mail') return <svg {...p}><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7l9 7 9-7" /></svg>;
@@ -64,7 +59,7 @@ function Masthead() {
         <div className="ew-topline">
             <Link to="/" className="ew-brand"><img src={headshot} alt="" />ellielwang</Link>
             <span className="ew-tl-mid">{today} &middot; {all.length} stories</span>
-            <span className="ew-tl-right"><button className="ew-sub" onClick={goNewsletter}>subscribe</button><button className="ew-mode" onClick={toggle} aria-pressed={dusk} aria-label={dusk ? 'Switch to day mode' : 'Switch to dusk mode'}><PixelLotus />{dusk ? 'day' : 'dusk'}</button></span>
+            <span className="ew-tl-right"><button className="ew-sub" onClick={goNewsletter}>subscribe</button><button className="ew-mode" onClick={toggle} aria-pressed={dusk} aria-label={dusk ? 'Switch to day mode' : 'Switch to dusk mode'}><Lotus className="ew-btn-lotus" />{dusk ? 'day' : 'dusk'}</button></span>
         </div>
         <div className="ew-brandrow">
             <div className="ew-title"><Link to="/" className="ew-pub">you just have to ask</Link><div className="ew-by">by Elizabeth (Ellie) Wang</div></div>
@@ -129,7 +124,6 @@ function Home() {
                     <div className="ew-pills"><a href="#sections">browse by industry</a><a href="https://calendly.com/elizabethlynnwang/30min" target="_blank" rel="noreferrer">book a chat</a></div>
                 </aside>
                 <article className="ew-lead">
-                    <Lotus className="ew-lead-lotus" />
                     <span className="ew-label">latest story</span>
                     <button className="ew-leadbtn" onClick={() => setOpen(lead)}>
                         <img src={storyImages[lead.images[0]]} alt={titleCase(lead.name) + ', from the original post'} />
@@ -195,6 +189,35 @@ function Home() {
                 </div>
             </section>
 
+            <section className="ew-sect" id="record">
+                <div className="ew-shead"><h2>the full <em>record</em></h2></div>
+                <div className="ew-trio">
+                    <div className="ew-tcol"><h3>experience</h3><ul>
+                        <li><b>Claude Campus Ambassador</b>, NEXT GEN&middot;TEAM<small>Oct 2026 to present</small>Leading the Claude Builder Community at UGA</li>
+                        <li><b>Co-Founder, Go-To-Market</b>, Pitcher<small>Jun 2026 to present</small>A founder discovery network for early startups</li>
+                        <li><b>Go-To-Market</b>, Todd<small>Aug 2026 to present</small>Interviews with people who run farms across New York, California, Utah, and Maryland. Instagram graphics for an ag-tech startup that raised pre-seed funding at a $40M valuation cap.</li>
+                        <li><b>Founding Growth @ UGA</b>, Ditto<small>Aug 2026 to present</small>Secured approval to put Ditto flyers up across UGA dorms and student centers. #1 cupid all time in the US.</li>
+                        <li><b>Lucy Mission Ambassador</b>, L&rsquo;SPACE Program<small>Sep 2026 to present</small></li>
+                        <li><b>Team Program Analyst (MCA)</b>, L&rsquo;SPACE Program<small>May 2026 to Aug 2026</small>Supporting a lunar surface mission concept focused on hazards in permanently shadowed regions, including dust, radiation, and impact risk. Driving schedule and cost estimation for the team&rsquo;s Preliminary Definition Review.</li>
+                        <li><b>Team Principal Investigator (NPWEE)</b>, L&rsquo;SPACE Program<small>Jan 2026 to May 2026</small>Led a 10-member interdisciplinary team in the NASA-funded L&rsquo;SPACE NPWEE to develop a NASA-style mission concept addressing orbital debris mitigation.</li></ul></div>
+                    <div className="ew-tcol"><h3>education</h3><ul>
+                        <li><b>University of Georgia, Terry College of Business</b><small>Aug 2025 to May 2029</small>BBA in Management Information Systems, with Entrepreneurship and FinTech Certificates. Alpha Sigma Rho (Fundraising &amp; Philanthropy Chair), Magellan Program, Emerging Greek Leaders, Reed/Payne Community Council (Coordinator of Communications), UGA Trial Gardens, International Business Society, Society for Management Information Systems, Shop With A Bulldawg mentor, UGA Fencing Club, UGAHacks.</li>
+                        <li><b>University of Oxford</b><small>Jun 2026 to Aug 2026</small>Biomedical Ethics, Computing Ethics. UGA Foundation Incentive Scholarship ($3,500) and EL Ready to Thrive Scholarship ($7K).</li>
+                        <li><b>Northview High School</b><small>Aug 2021 to May 2025</small>Magna Cum Laude. Public Health and Fine Arts Pathways Seal (Mastery Orchestra: Violin). Outstanding Public Health Pathway Student of the Year.</li>
+                        <li><b>Atlanta Contemporary Chinese Academy</b><small>2012 to 2023</small>Completed the 9-year curriculum and 1-year AP Chinese Language and Culture course.</li>
+                        <li>Selected participant: Goldman Sachs Possibilities Series, BCG Launch, PwC Future Focus, DHL Future Leaders Summit</li></ul></div>
+                    <div className="ew-tcol"><h3>service + learning</h3><ul>
+                        <li><b>Johns Creek Baptist Church</b>, contemporary production director and event volunteer<small>Sep 2021 to Mar 2025</small></li>
+                        <li><b>Findley Oaks Elementary Literacy Initiative</b>, English Second Language tutor<small>Jan 2024 to May 2024</small></li>
+                        <li><b>Wellstar Health System</b>, Cobb &amp; North Fulton Wellstar Hospital VolunTEEN<small>Jun 2023 to Jul 2024</small></li>
+                        <li><b>National Beta</b>, student volunteer<small>Aug 2021 to May 2025</small></li>
+                        <li><b>Capstone Hospice</b>, volunteer<small>Apr 2024</small></li>
+                        <li><b>National Honor Society</b>, inductee, 1 of 75 from a 450+ senior class<small>May 2024 to May 2025</small></li>
+                        <li><b>Policy brief:</b> &ldquo;The Invisible Workload of Grief: Student Bereavement Administrative Burdens,&rdquo; Institute for Youth in Policy<small>Jan 2026 to Mar 2026</small></li>
+                        <li><b>Certifications:</b> CITI Social and Behavioral Research; National Health Science Certificate; JHU Global Health Leaders Conference (2024); Excel Essential Training; Basic Life Support (CPR and AED)</li></ul></div>
+                </div>
+            </section>
+
             <section className="ew-row">
                 <div>
                     <div className="ew-shead"><h2>about the <em>series</em></h2></div>
@@ -217,12 +240,17 @@ function Home() {
                         <li>Point Foundation Persistence Scholarship<span>2x</span></li>
                         <li>Public Health Pathway Student of the Year<span>2025</span></li>
                         <li>ASTA National Orchestra Festival<span>1st</span></li>
+                        <li>Top 6, Medical Business Association/SMIS Case Competition<span>top 6</span></li>
+                        <li>HOSA Georgia State Leadership Conference, Medical Reading<span>1st in state, 2026</span></li>
+                        <li>National BETA Scholarship Program, top 5 of 3,500+ applicants<span>$6K</span></li>
+                        <li>Runner-Up Student Project Award, UGA Data Science and AI Summer Camp<span>2024</span></li>
+                        <li>Selected presenter, Georgia State Undergraduate Research Conference<span>2025</span></li>
+                        <li>Published in &ldquo;Bubbles,&rdquo; Northview MUSE literary magazine<span>2025</span></li>
                     </ul>
                 </div>
             </section>
 
             <section className="ew-row ew-about" id="about">
-                <Lotus className="ew-deco ew-deco-b" />
                 <div>
                     <div className="ew-shead"><h2>about</h2></div>
                     <p>I&rsquo;m a student at the University of Georgia studying Management Information Systems in the Terry College of Business, with a Sociology minor and an Entrepreneurship Certificate.</p>
@@ -231,6 +259,7 @@ function Home() {
                 <div className="ew-aboutr">
                     <p>I&rsquo;ve played piano since I was 4 and violin since 4th grade, and I started making content at 15 by posting piano videos. Music taught me how to work hard; people taught me why it matters.</p>
                     <p className="ew-values">authenticity &middot; curiosity &middot; gratitude &middot; community</p>
+                    <figure className="ew-snow"><img src={snowPhoto} alt="A snowy outdoor scene with a child in a red jacket in the foreground" loading="lazy" /></figure>
                 </div>
             </section>
 
@@ -245,6 +274,7 @@ function Newsletter() {
     const [email, setEmail] = React.useState('');
     const [done, setDone] = React.useState(false);
     return <section className="ew-sect ew-news" id="newsletter">
+        <Lotus className="ew-news-lotus" />
         <div className="ew-shead"><h2>the <em>&quot;you just have to ask&quot;</em> newsletter</h2></div>
         <p className="ew-clede">New stories in your inbox, so you never have to catch every post. Always free. No paywall.</p>
         <form className="ew-nform" onSubmit={(e) => { e.preventDefault(); setDone(true); }}>

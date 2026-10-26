@@ -210,3 +210,10 @@ body { background: #fbe4ea; }
 .ew-pix { width: 56px; height: auto; }
 .ew-credit { font-size: 13px; opacity: .7; margin: 6px 0 0; }
 .ew-lead-lotus { display: none; }
+
+.ew-tcol li small { display: block; opacity: .7; font-size: 12px; letter-spacing: .05em; text-transform: uppercase; margin: 2px 0 3px; }
+.ew-news-lotus { display: block; width: 84px; height: auto; margin: 0 auto 6px; }
+
+.ew-btn-lotus { width: 24px; height: auto; vertical-align: middle; margin-right: 6px; }
+.ew-snow { margin: 26px 0 0; max-width: 340px; }
+.ew-snow img { width: 100%; height: auto; display: block; }
