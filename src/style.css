@@ -230,3 +230,6 @@ body { background: #fbe4ea; }
 @media (prefers-reduced-motion: reduce) { .ew-marq { overflow-x: auto; scrollbar-width: none; } .ew-marq-track { animation: none; } .ew-marq-set[aria-hidden] { display: none; } }
 @media (max-width: 760px) { .ew-secnav { gap: 14px; overflow: hidden; } .ew-navfix { gap: 12px; } }
 @media (max-width: 760px) { .ew-secnav { flex-wrap: wrap; row-gap: 8px; } .ew-marq { flex: 1 1 100%; } .ew-navfix { flex: 1 1 100%; justify-content: flex-end; border-top: 1px solid var(--line); padding-top: 8px; } }
+
+.ew-zh { display: block; font-family: 'Noto Serif TC', 'Source Han Serif TC', 'PingFang TC', 'Songti TC', 'Noto Serif CJK TC', serif; font-style: normal; font-size: 24px; line-height: 1.5; }
+.ew-en { display: block; margin-top: 8px; font-size: 18px; opacity: .85; }
