@@ -310,7 +310,7 @@ function Contact() {
 function Foot() {
     return <footer>
         <div className="ew-sign"><Lotus className="ew-pix" />ellielwang</div>
-        <p className="ew-credit">Lotus designed by Ava Chapagain</p>
+        <p className="ew-credit">Lotus designed by <a href="https://www.linkedin.com/in/ava-c-589144366/" target="_blank" rel="noopener noreferrer">Ava Chapagain</a></p>
         <ul className="ew-icons">
             <li><a href="https://www.linkedin.com/in/ellielwang" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon kind="in" /></a></li>
             <li><a href="https://x.com/ellielwang" target="_blank" rel="noreferrer" aria-label="X"><Icon kind="x" /></a></li>
