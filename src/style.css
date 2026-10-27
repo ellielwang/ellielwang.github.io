@@ -234,3 +234,4 @@ body { background: #fbe4ea; }
 .ew-zh { display: block; font-family: 'Noto Serif TC', 'Source Han Serif TC', 'PingFang TC', 'Songti TC', 'Noto Serif CJK TC', serif; font-style: normal; font-size: 24px; line-height: 1.5; }
 .ew-en { display: block; margin-top: 8px; font-size: 18px; opacity: .85; }
 .ew-credit a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.ew-nnote a { color: inherit; text-decoration: underline; text-underline-offset: 3px; } .ew-nform button:disabled { opacity: .6; cursor: default; }

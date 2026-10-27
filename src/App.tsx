@@ -279,16 +279,32 @@ function Home() {
 
 function Newsletter() {
     const [email, setEmail] = React.useState('');
-    const [done, setDone] = React.useState(false);
+    const [state, setState] = React.useState<'idle' | 'sending' | 'ok' | 'guard' | 'err'>('idle');
+    const [guard, setGuard] = React.useState('');
+    const submit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setState('sending');
+        try {
+            const fd = new FormData();
+            fd.append('email_address', email);
+            const r = await fetch('https://app.kit.com/forms/10102413/subscriptions', { method: 'POST', body: fd, headers: { Accept: 'application/json' } });
+            const j = await r.json().catch(() => ({} as any));
+            if (j && j.status === 'quarantined' && j.url) { setGuard(j.url); setState('guard'); }
+            else if (r.ok && (!j.status || j.status === 'success' || j.status === 'created')) setState('ok');
+            else setState('err');
+        } catch (_) { setState('err'); }
+    };
     return <section className="ew-sect ew-news" id="newsletter">
         <Lotus className="ew-news-lotus" />
         <div className="ew-shead"><h2>the <em>&quot;you just have to ask&quot;</em> newsletter</h2></div>
-        <p className="ew-clede">New stories in your inbox, so you never have to catch every post. Always free. No paywall.</p>
-        <form className="ew-nform" onSubmit={(e) => { e.preventDefault(); setDone(true); }}>
-            <input type="email" required value={email} onChange={(e) => { setEmail(e.target.value); setDone(false); }} placeholder="you@email.com" aria-label="email address" />
-            <button type="submit">subscribe</button>
+        <p className="ew-clede">New stories in your inbox, so you never have to catch every post. Free, no paywall.</p>
+        <form className="ew-nform" onSubmit={submit}>
+            <input type="email" required value={email} onChange={(e) => { setEmail(e.target.value); if (state !== 'sending') setState('idle'); }} placeholder="you@email.com" aria-label="email address" />
+            <button type="submit" disabled={state === 'sending'}>{state === 'sending' ? 'sending' : 'subscribe'}</button>
         </form>
-        {done && <p className="ew-nnote">Preview only. Signup is not live yet and nothing was saved.</p>}
+        {state === 'ok' && <p className="ew-nnote" role="status">Almost there. Check your email and click the link to confirm your subscription.</p>}
+        {state === 'guard' && <p className="ew-nnote" role="status">One quick check first: <a href={guard} target="_blank" rel="noopener noreferrer">confirm you&rsquo;re human</a>, then check your email.</p>}
+        {state === 'err' && <p className="ew-nnote" role="alert">Something went wrong. Please try again in a moment.</p>}
     </section>;
 }
 
