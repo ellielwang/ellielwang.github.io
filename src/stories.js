@@ -1122,5 +1122,13 @@ export default [
  "images": [
   "src/photos/stories/10-25-2026-kyan-navaja-0.jpg"
  ]
+},
+{
+ "date": "10/26/2026",
+ "name": "david derama",
+ "body": "Continuing to tell these stories, one at a time. This one starts with my first conversation with someone in Finland!\n\nDavid Derama told me he was born in Manila and moved to Finland when he was 7!\n\nIn 13 years, he\u2019s only been back to the Philippines once.\n\nHe told me his path into tech started with a laptop his family got him as a kid. \n\nDavid played games, started coding, and got hooked, and watching The Social Network pushed him even further. \n\nIn Finland, he picked computer science right away in high school and studied it for 3 years.\n\nHe grew up on American movies, from 70s New York mob films to rom-coms.\n\nThe coffee chats we both do are something he wishes he had more of.\n\nDavid started putting himself out on LinkedIn and started doing coffee chats! \n\nOne of the people he talked to saw it, reached out, and now he\u2019s set to volunteer next month on the marketing team for a startup and tech event, called Slush, in Helsinki, Finland, where startups gather to network and look for their next big thing. \n\nHe\u2019s still figuring out whether IT is the long term path or whether something like growth and marketing is. \n\nWe both swapped stories about pivoting between fields and how it\u2019s been to still be figuring it out!\n\nHis takeaway for anyone struggling: you\u2019re not alone, and reach out to people!\n\nVery grateful for David Derama sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/10-26-2026-david-derama-0.jpg"
+ ]
 }
 ];

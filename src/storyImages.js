@@ -224,6 +224,7 @@ import i222 from './photos/stories/10-22-2026-nathan-stanford-0.jpg';
 import i223 from './photos/stories/10-23-2026-enrique-yervez-0.jpg';
 import i224 from './photos/stories/10-24-2026-umar-faheem-0.jpg';
 import i225 from './photos/stories/10-25-2026-kyan-navaja-0.jpg';
+import i226 from './photos/stories/10-26-2026-david-derama-0.jpg';
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -452,4 +453,5 @@ export default {
   "src/photos/stories/10-23-2026-enrique-yervez-0.jpg": i223,
   "src/photos/stories/10-24-2026-umar-faheem-0.jpg": i224,
   "src/photos/stories/10-25-2026-kyan-navaja-0.jpg": i225,
+  "src/photos/stories/10-26-2026-david-derama-0.jpg": i226,
 };
