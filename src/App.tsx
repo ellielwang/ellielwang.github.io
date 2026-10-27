@@ -234,7 +234,7 @@ function Home() {
                     <a className="ew-link" href="https://www.linkedin.com/in/ellielwang" target="_blank" rel="noreferrer">read the series on LinkedIn</a>
                 </div>
                 <div>
-                    <div className="ew-stats"><div>100+<small>stories told</small></div><div>9+<small>countries</small></div><div>330,223<small>linkedin impressions</small></div></div>
+                    <div className="ew-stats"><div>100+<small>stories told</small></div><div>9+<small>countries</small></div><div>330,440<small>linkedin impressions</small></div></div>
                     <h3 className="ew-small">honors</h3>
                     <ul className="ew-honors">
                         <li>EY SAP S/4HANA Case Competition<span>2nd</span></li>
