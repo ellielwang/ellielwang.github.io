@@ -11,6 +11,7 @@ export const SECTIONS = [
   { slug: 'policy', label: 'policy & advocacy' },
 ];
 const CURATED = {
+  "10/27/2026|adeetya jain": ["fintech","startups","tech"],
   "10/26/2026|david derama": ["tech"],
   "8/28/2026|alyssa lee": ["fintech"],
   "9/10/2026|ashutos jain": ["fintech"],
