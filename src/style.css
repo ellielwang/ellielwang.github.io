@@ -235,3 +235,10 @@ body { background: #fbe4ea; }
 .ew-en { display: block; margin-top: 8px; font-size: 18px; opacity: .85; }
 .ew-credit a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .ew-nnote a { color: inherit; text-decoration: underline; text-underline-offset: 3px; } .ew-nform button:disabled { opacity: .6; cursor: default; }
+
+/* digital diary */
+.ew-dentry { display: block; width: 100%; text-align: left; background: none; border: 0; border-top: 1px dashed rgba(90, 20, 50, .35); padding: 22px 4px 26px; font: inherit; color: inherit; cursor: default; }
+.ew-dentry .ew-kick { letter-spacing: .14em; }
+.ew-dbody { margin-top: 10px; font-size: 17px; line-height: 1.65; white-space: pre-wrap; max-width: 62ch; }
+.ew-dsrc { margin-top: 14px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+.ew-dsrc a { color: inherit; }

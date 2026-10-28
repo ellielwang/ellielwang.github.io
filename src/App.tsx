@@ -1,6 +1,7 @@
 import React from 'react';
 import { FileCard, Link, Route, Routes } from './files-shim';
 import stories from './stories.js';
+import diary from './diary.js';
 import { SECTIONS, sectionsFor, excerpt } from './sections.js';
 import storyImages from './storyImages.js';
 import './fonts.css';
@@ -72,11 +73,13 @@ function Masthead() {
                         <Link to="/" tabIndex={k === 1 ? -1 : undefined}>latest</Link>
                         {SECTIONS.map((x) => <Link key={x.slug} to={'/section/' + x.slug} tabIndex={k === 1 ? -1 : undefined}>{x.label}</Link>)}
                         <Link to="/stories" tabIndex={k === 1 ? -1 : undefined}>all stories</Link>
+                        <Link to="/diary" tabIndex={k === 1 ? -1 : undefined}>digital diary</Link>
                     </div>)}
                 </div>
             </div>
             <div className="ew-navfix">
                 <button className="ew-navbtn" onClick={goNewsletter}>newsletter</button>
+                <Link to="/diary">digital diary</Link>
                 <a href="#about">about</a>
                 <a href="#contact">contact</a>
             </div>
@@ -338,6 +341,23 @@ function Foot() {
     </footer>;
 }
 
+function Diary() {
+    return <div className={'ew' + (React.useContext(ThemeCtx).dusk ? ' dusk' : '')}>
+        <Masthead />
+        <main className="ew-wrap ew-archive">
+            <h1>digital diary</h1>
+            <p className="ew-lede">Trying something new every day, told in my own words on X. Newest first.</p>
+            {diary.map((e: { date: string; text: string; link: string }, i: number) => <article className="ew-dentry" key={e.link}>
+                <span className="ew-kick">{e.date.replace('/2026', '')}</span>
+                <div className="ew-dbody">{e.text}</div>
+                <span className="ew-dsrc"><a href={e.link} target="_blank" rel="noreferrer">original post on x</a></span>
+            </article>)}
+            <p className="ew-dsrc">posted daily on <a href="https://x.com/ellielwang" target="_blank" rel="noreferrer">x.com/ellielwang</a></p>
+            <Foot />
+        </main>
+    </div>;
+}
+
 function Archive({ section }: { section?: string }) {
     const [query, setQuery] = React.useState('');
     const [open, setOpen] = React.useState<Story | null>(null);
@@ -378,6 +398,7 @@ export function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/stories" element={<Archive />} />
+            <Route path="/diary" element={<Diary />} />
             {SECTIONS.map((x) => <Route key={x.slug} path={'/section/' + x.slug} element={<Archive section={x.slug} />} />)}
         </Routes>
     </FileCard></ThemeCtx.Provider>;
