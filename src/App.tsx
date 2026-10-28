@@ -345,8 +345,8 @@ function Diary() {
     return <div className={'ew' + (React.useContext(ThemeCtx).dusk ? ' dusk' : '')}>
         <Masthead />
         <main className="ew-wrap ew-archive">
-            <h1>digital diary</h1>
-            <p className="ew-lede">Trying something new every day, told in my own words on X. Newest first.</p>
+            <h1>Trying something new every day on X</h1>
+            <p className="ew-lede">Told in my own words on X. Newest first.</p>
             {diary.map((e: { date: string; text: string; link: string }, i: number) => <article className="ew-dentry" key={e.link}>
                 <span className="ew-kick">{e.date.replace('/2026', '')}</span>
                 <div className="ew-dbody">{e.text}</div>
