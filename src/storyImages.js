@@ -226,6 +226,8 @@ import i224 from './photos/stories/10-24-2026-umar-faheem-0.jpg';
 import i225 from './photos/stories/10-25-2026-kyan-navaja-0.jpg';
 import i226 from './photos/stories/10-26-2026-david-derama-0.jpg';
 import i227 from './photos/stories/10-27-2026-adeetya-jain-0.jpg';
+import i228 from './photos/stories/7-25-2026-ben-aratame-2.jpg';
+import i229 from './photos/stories/9-28-2026-jonathan-pertchik-1.jpg';
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -456,4 +458,6 @@ export default {
   "src/photos/stories/10-25-2026-kyan-navaja-0.jpg": i225,
   "src/photos/stories/10-26-2026-david-derama-0.jpg": i226,
   "src/photos/stories/10-27-2026-adeetya-jain-0.jpg": i227,
+  "src/photos/stories/7-25-2026-ben-aratame-2.jpg": i228,
+  "src/photos/stories/9-28-2026-jonathan-pertchik-1.jpg": i229,
 };
