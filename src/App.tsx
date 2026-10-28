@@ -131,7 +131,7 @@ function Home() {
                 <aside className="ew-rail">
                     <figure className="ew-arch"><img src={headshot} alt="Ellie Wang standing on a balcony in a black blazer" /></figure>
                     <p className="ew-kicker">UGA &rsquo;29, Terry College of Business</p>
-                    <div className="ew-pills"><a href="#sections">browse by industry</a><a href="https://calendly.com/elizabethlynnwang/30min" target="_blank" rel="noreferrer">book a chat</a></div>
+                    <div className="ew-pills"><a href="#/stories/chronological">read all {all.length} stories</a><a href="#sections">browse by industry</a><a href="https://calendly.com/elizabethlynnwang/30min" target="_blank" rel="noreferrer">book a chat</a></div>
                 </aside>
                 <article className="ew-lead">
                     <span className="ew-label">latest story</span>
@@ -358,13 +358,15 @@ function Diary() {
     </div>;
 }
 
-function Archive({ section }: { section?: string }) {
+function Archive({ section, oldestFirst }: { section?: string; oldestFirst?: boolean }) {
     const [query, setQuery] = React.useState('');
     const [open, setOpen] = React.useState<Story | null>(null);
+    const [old, setOld] = React.useState(!!oldestFirst);
     const meta = SECTIONS.find((x) => x.slug === section);
     const base = section ? inSection(section) : newest;
     const q = query.trim().toLowerCase();
-    const visible = q ? base.filter((s) => (s.name + ' ' + s.body).toLowerCase().includes(q)) : base;
+    const searched = q ? base.filter((s) => (s.name + ' ' + s.body).toLowerCase().includes(q)) : base;
+    const visible = old ? [...searched].reverse() : searched;
     const groups: { label: string; items: Story[] }[] = [];
     visible.forEach((s) => {
         const label = MONTHS[parseInt(s.date.split('/')[0], 10) - 1] + ' 2026';
@@ -375,8 +377,11 @@ function Archive({ section }: { section?: string }) {
         <Masthead />
         <main className="ew-wrap ew-archive">
             <h1>{meta ? meta.label : base.length + ' stories'}</h1>
-            <p className="ew-lede">{meta ? base.length + ' stories from You Just Have to Ask that talk about this field, newest first. Sorted by what each story says.' : 'From You Just Have to Ask, newest first.'}</p>
-            <input className="ew-filter" type="search" placeholder="search a name or a detail" value={query} onChange={(e) => setQuery(e.target.value)} aria-label="Search stories" />
+            <p className="ew-lede">{meta ? base.length + ' stories from You Just Have to Ask that talk about this field. Sorted by what each story says.' : 'From You Just Have to Ask, every story in order.'}</p>
+            <div className="ew-archrow">
+                <input className="ew-filter" type="search" placeholder="search a name or a detail" value={query} onChange={(e) => setQuery(e.target.value)} aria-label="Search stories" />
+                <button className="ew-order" onClick={() => setOld((v) => !v)}>{old ? 'oldest first' : 'newest first'}</button>
+            </div>
             {groups.map((g) => <section key={g.label}>
                 <div className="ew-ghead"><h2>{g.label}</h2><span className="ew-meta">{g.items.length} {g.items.length === 1 ? 'story' : 'stories'}</span></div>
                 {g.items.map((s) => <button className="ew-arow" key={s.date + s.name} onClick={() => setOpen(s)}>
@@ -398,6 +403,7 @@ export function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/stories" element={<Archive />} />
+            <Route path="/stories/chronological" element={<Archive oldestFirst />} />
             <Route path="/diary" element={<Diary />} />
             {SECTIONS.map((x) => <Route key={x.slug} path={'/section/' + x.slug} element={<Archive section={x.slug} />} />)}
         </Routes>
