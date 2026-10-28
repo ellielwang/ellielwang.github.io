@@ -1,8 +1,23 @@
 // Digital diary: Ellie's daily X posts from https://x.com/ellielwang, verbatim.
-// Seed: six complete entries pasted by Ellie on 10/27/2026 (full text + permalinks).
-// Dates verified against X snowflake IDs (UTC converted to ET). Older/newer entries
-// to be added once full archive access is available. Text is her own, unedited.
+// Entries pasted by Ellie on 10/27/2026 (full text + permalinks); dates verified
+// against X snowflake IDs (UTC converted to ET). Text is her own, unedited.
+// Remaining archive to be added once full X access is available.
 export default [
+ {
+  "date": "10/27/2026",
+  "link": "https://x.com/ellielwang/status/2115094502515802117",
+  "text": "if you’re interested in connect let’s tech"
+ },
+ {
+  "date": "10/27/2026",
+  "link": "https://x.com/ellielwang/status/2114937717108715938",
+  "text": "trying something new every day!\n\n>hit my head on my table doing push ups…\n>gave an org interview!\n>1 class\n>2 calls\n>had market sizing prep\n>matcha with sisters, my stomach hurt after…\n>had cohort meet!\n\npotd: la foule Edith piaf\n\nso grateful to be surrounded by good friends!"
+ },
+ {
+  "date": "10/26/2026",
+  "link": "https://x.com/ellielwang/status/2114760250351853809",
+  "text": "if you're building in public and you're curious about life, human connection, or the world, let's connect!!\n\nwhat's your favorite song? mine is human nature by michael jackson :))"
+ },
  {
   "date": "7/22/2026",
   "link": "https://x.com/ellielwang/status/2080082913396220236",
@@ -32,5 +47,10 @@ export default [
   "date": "7/18/2026",
   "link": "https://x.com/ellielwang/status/2078462085059469320",
   "text": "Trying something new everyday! Oops forgot to post yesterday but I tried out this mango pineapple juice!!"
+ },
+ {
+  "date": "7/16/2026",
+  "link": "https://x.com/ellielwang/status/2077676635327762772",
+  "text": "Being willing to try has taught me so much about myself, one of those tries is making this account, and I really want to share my stories!\n\nI’m Ellie, and I love trying new things!!"
  }
 ]
