@@ -1158,5 +1158,14 @@ export default [
   "src/photos/stories/10-28-2026-denise-zivkovic-0.jpg",
   "src/photos/stories/10-28-2026-denise-zivkovic-1.jpg"
  ]
+},
+{
+ "date": "10/29/2026",
+ "name": "haolin feng",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a kid who loved hearing people talk!\n\nHaolin Feng immigrated from Guangdong, in southern China, and grew up in Miami. \n\nAt home his family spoke Cantonese, and as a kid he skipped American shows for mainland C-dramas. \n\nThat's how he learned Mandarin: just by listening! \n\nAlong the way, Haolin's picked up Spanish too, which he understands more than he speaks!\n\nWhat I appreciated was why he keeps learning: speaking someone's native language is a way to reach them on a different level.\n\nHaolin and I met through Vincent Todd!\n\nWhen Haolin and I talked about what motivates him, he told me about his parents. \n\nHaolin's parents dedicated their lives so he could get an education in the US, and he wants to make their sacrifices worth it.\n\nHe believes there is no such thing as rejection, only the fear of it. \n\nTo him, when you truly set your mind to something, even the world conspires to make it happen!\n\nHaolin sees the greatest failure not in being rejected, but in never daring to try.\n\nHe shared that Jose C., who he's known since sophomore year of high school, introduced him to the startup and VC world. \n\nHaolin wanted to chase his own dreams and express himself freely, without anyone telling him what he can't do.\n\nNow, he's building a platform for esports communities with his friends. \n\nSmall organizers can create tournaments, and people from different schools or even different countries can play together, centered around community!\n\nVery grateful for Haolin Feng sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/10-29-2026-haolin-feng-0.jpg",
+  "src/photos/stories/10-29-2026-haolin-feng-1.jpg"
+ ]
 }
 ];

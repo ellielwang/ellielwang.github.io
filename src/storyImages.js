@@ -232,6 +232,8 @@ import i230 from './photos/stories/7-13-2026-angie-lin-0.jpg';
 import i231 from './photos/stories/7-13-2026-angie-lin-1.jpg';
 import i232 from './photos/stories/10-28-2026-denise-zivkovic-0.jpg';
 import i233 from './photos/stories/10-28-2026-denise-zivkovic-1.jpg';
+import i234 from './photos/stories/10-29-2026-haolin-feng-0.jpg';
+import i235 from './photos/stories/10-29-2026-haolin-feng-1.jpg';
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -467,5 +469,7 @@ export default {
   "src/photos/stories/7-13-2026-angie-lin-0.jpg": i230,
   "src/photos/stories/7-13-2026-angie-lin-1.jpg": i231,
   "src/photos/stories/10-28-2026-denise-zivkovic-0.jpg": i232,
-  "src/photos/stories/10-28-2026-denise-zivkovic-1.jpg": i233
+  "src/photos/stories/10-28-2026-denise-zivkovic-1.jpg": i233,
+  "src/photos/stories/10-29-2026-haolin-feng-0.jpg": i234,
+  "src/photos/stories/10-29-2026-haolin-feng-1.jpg": i235
 };
