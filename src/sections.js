@@ -9,11 +9,13 @@ export const SECTIONS = [
   { slug: 'tech', label: 'tech & ai' },
   { slug: 'space', label: 'space & science' },
   { slug: 'policy', label: 'policy & advocacy' },
+  { slug: 'agriculture', label: 'agriculture & farming' },
 ];
 const CURATED = {
   "10/27/2026|adeetya jain": ["fintech","startups","tech"],
   "10/29/2026|haolin feng": ["startups","tech"],
   "10/30/2026|wilman chan": ["creators"],
+  "10/28/2026|denise zivkovic": ["agriculture"],
   "10/26/2026|david derama": ["tech"],
   "8/28/2026|alyssa lee": ["fintech"],
   "9/10/2026|ashutos jain": ["fintech"],
