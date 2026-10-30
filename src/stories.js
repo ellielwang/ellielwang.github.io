@@ -1167,5 +1167,13 @@ export default [
   "src/photos/stories/10-29-2026-haolin-feng-0.jpg",
   "src/photos/stories/10-29-2026-haolin-feng-1.jpg"
  ]
+},
+{
+ "date": "10/30/2026",
+ "name": "wilman chan",
+ "body": "Continuing to tell these stories, one at a time. This one starts with the fear of putting yourself out there!\n\nWilman Chan told me there's nothing to lose from posting!\n\nFor him, the cost of getting started was embarrassment, and after he got traction early on, the fear went away.\n\nI found myself relating a lot to that. When I first got started on here, I felt a lot of initial embarrassment and fear too, but kept on going.\n\nIt started his junior year of high school!\n\nWilman had spent the first couple of years on robotics and video games, then realized everyone around him was doing research and publications and he felt behind.\n\nHe started an online business community, posted research opportunities on LinkedIn, and kept posting when some of them went viral.\n\nHe was also making skits on Instagram for fun, and he took the scripting and editing skills from those over to LinkedIn.\n\nWilman first met Arthur Park online, and about a year later, they met up in person in Taiwan. They've stayed in touch about the creator and LinkedIn space!\n\nArthur later connected Wilman with the founder of Typa (YC S24), who had already seen his content and flew him out to SF for a work trial.\n\nThree weeks of getting to the office at 1pm and leaving at 11pm, a small group working towards one thing.\n\nHe called it the embodiment of startup hustle culture: fun, and super tiring.\n\nMostly, Wilman came away with really good friends!\n\nLast year he did coffee chats with around 50 people, opened his calendar not expecting that many to sign up, and some went on to start their own things from posts he guided them to make.\n\nWilman said it was nice to know he made an impact on people's lives. That's what he loves!\n\nHis advice if you burn out is that it's a rite of passage, and to take a break and find a way to enjoy it again!\n\nI've felt burned out a few times too, and had to remind myself to take breaks. Then I came back to loving things all over again!\n\nVery grateful for Wilman Chan sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/10-30-2026-wilman-chan-0.jpg"
+ ]
 }
 ];
