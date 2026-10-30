@@ -377,7 +377,7 @@ function Archive({ section, oldestFirst }: { section?: string; oldestFirst?: boo
         <Masthead />
         <main className="ew-wrap ew-archive">
             <h1>{meta ? meta.label : base.length + ' stories'}</h1>
-            <p className="ew-lede">{meta ? base.length + ' stories from You Just Have to Ask that talk about this field. Sorted by what each story says.' : 'From You Just Have to Ask, every story in order.'}</p>
+            <p className="ew-lede">{meta ? base.length + (base.length === 1 ? ' story' : ' stories') + ' from You Just Have to Ask that talk about this field. Sorted by what each story says.' : 'From You Just Have to Ask, every story in order.'}</p>
             <div className="ew-archrow">
                 <input className="ew-filter" type="search" placeholder="search a name or a detail" value={query} onChange={(e) => setQuery(e.target.value)} aria-label="Search stories" />
                 <button className="ew-order" onClick={() => setOld((v) => !v)}>{old ? 'oldest first' : 'newest first'}</button>
