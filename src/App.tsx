@@ -415,7 +415,7 @@ function Watch() {
         <Masthead />
         <main className="ew-wrap ew-archive">
             <h1>watch</h1>
-            <p className="ew-lede">Videos from my other corners of the internet: @ellielwang and @purpleplum456 on youtube, plus @purpleplum456 on tiktok and instagram. Most-viewed three from each.</p>
+            <p className="ew-lede">Videos from my other corners of the internet: @ellielwang and @purpleplum456 on youtube, plus @purpleplum456 on tiktok and instagram. Most-viewed three from each youtube channel, latest three from tiktok and instagram.</p>
             <section className="ew-vidsec">
                 <div className="ew-ghead"><h2>youtube</h2><a className="ew-meta" href="https://www.youtube.com/@purpleplum456" target="_blank" rel="noreferrer">@purpleplum456 &rarr;</a></div>
                 <div className="ew-vidgrid ew-vidgrid-portrait">
