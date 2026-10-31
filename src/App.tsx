@@ -74,6 +74,7 @@ function Masthead() {
                         {SECTIONS.map((x) => <Link key={x.slug} to={'/section/' + x.slug} tabIndex={k === 1 ? -1 : undefined}>{x.label}</Link>)}
                         <Link to="/stories" tabIndex={k === 1 ? -1 : undefined}>all stories</Link>
                         <Link to="/diary" tabIndex={k === 1 ? -1 : undefined}>digital diary</Link>
+                        <Link to="/watch" tabIndex={k === 1 ? -1 : undefined}>watch</Link>
                     </div>)}
                 </div>
             </div>
@@ -396,6 +397,50 @@ function Archive({ section, oldestFirst }: { section?: string; oldestFirst?: boo
     </div>;
 }
 
+
+function Watch() {
+    const yt = [
+        { id: 'trHIpo5EYes', t: 'recovering from burnout!' },
+        { id: 'oZE3IDaaISk', t: 'letting failure teach you' },
+        { id: 'BDaOjccUpFI', t: 'mentality is everything' },
+    ];
+    const tt = ['7702724127001562398', '7702345104039709982', '7701877212714224926'];
+    const ig = ['DfJlUg7x3s_', 'DfG853mxj36', 'DfDs9DwJRG-'];
+    return <div className={'ew' + (React.useContext(ThemeCtx).dusk ? ' dusk' : '')}>
+        <Masthead />
+        <main className="ew-wrap ew-archive">
+            <h1>watch</h1>
+            <p className="ew-lede">Videos from my other corner of the internet: @purpleplum456 on tiktok, youtube and instagram. Latest three from each.</p>
+            <section className="ew-vidsec">
+                <div className="ew-ghead"><h2>youtube</h2><a className="ew-meta" href="https://www.youtube.com/@purpleplum456" target="_blank" rel="noreferrer">@purpleplum456 &rarr;</a></div>
+                <div className="ew-vidgrid ew-vidgrid-yt">
+                    {yt.map((v) => <figure className="ew-vid" key={v.id}>
+                        <iframe src={'https://www.youtube-nocookie.com/embed/' + v.id} title={'YouTube video: ' + v.t} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen loading="lazy" />
+                        <figcaption>{v.t}</figcaption>
+                    </figure>)}
+                </div>
+            </section>
+            <section className="ew-vidsec">
+                <div className="ew-ghead"><h2>tiktok</h2><a className="ew-meta" href="https://www.tiktok.com/@purpleplum456" target="_blank" rel="noreferrer">@purpleplum456 &rarr;</a></div>
+                <div className="ew-vidgrid ew-vidgrid-portrait">
+                    {tt.map((id) => <figure className="ew-vid" key={id}>
+                        <iframe src={'https://www.tiktok.com/embed/v2/' + id} title="TikTok video by @purpleplum456" allow="encrypted-media; picture-in-picture" allowFullScreen loading="lazy" />
+                    </figure>)}
+                </div>
+            </section>
+            <section className="ew-vidsec">
+                <div className="ew-ghead"><h2>instagram</h2><a className="ew-meta" href="https://www.instagram.com/purpleplum456/" target="_blank" rel="noreferrer">@purpleplum456 &rarr;</a></div>
+                <div className="ew-vidgrid ew-vidgrid-portrait">
+                    {ig.map((id) => <figure className="ew-vid" key={id}>
+                        <iframe src={'https://www.instagram.com/reel/' + id + '/embed'} title="Instagram reel by @purpleplum456" allow="encrypted-media; picture-in-picture" allowFullScreen loading="lazy" />
+                    </figure>)}
+                </div>
+            </section>
+            <Foot />
+        </main>
+    </div>;
+}
+
 export function App() {
     const [dusk, setDusk] = React.useState(false);
     React.useEffect(() => { document.body.style.background = dusk ? '#2b1322' : '#fbe4ea'; document.documentElement.style.background = dusk ? '#2b1322' : '#fbe4ea'; }, [dusk]);
@@ -405,6 +450,7 @@ export function App() {
             <Route path="/stories" element={<Archive />} />
             <Route path="/stories/chronological" element={<Archive oldestFirst />} />
             <Route path="/diary" element={<Diary />} />
+            <Route path="/watch" element={<Watch />} />
             {SECTIONS.map((x) => <Route key={x.slug} path={'/section/' + x.slug} element={<Archive section={x.slug} />} />)}
         </Routes>
     </FileCard></ThemeCtx.Provider>;
