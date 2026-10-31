@@ -80,7 +80,7 @@ function Masthead() {
             </div>
             <div className="ew-navfix">
                 <button className="ew-navbtn" onClick={goNewsletter}>newsletter</button>
-                <Link to="/diary">digital diary</Link>
+                <Link to="/watch">watch</Link>
                 <a href="#about">about</a>
                 <a href="#contact">contact</a>
             </div>
@@ -404,17 +404,31 @@ function Watch() {
         { id: 'oZE3IDaaISk', t: 'letting failure teach you' },
         { id: 'BDaOjccUpFI', t: 'mentality is everything' },
     ];
+    const ytm = [
+        { id: 'Qp-clQ39zog', t: 'day 108: went to garba for the first time!' },
+        { id: 'Lvq4caLEGRQ', t: '2/7/2025' },
+        { id: 'a2VHkGNbTzU', t: 'old dance clip' },
+    ];
     const tt = ['7702724127001562398', '7702345104039709982', '7701877212714224926'];
     const ig = ['DfJlUg7x3s_', 'DfG853mxj36', 'DfDs9DwJRG-'];
     return <div className={'ew' + (React.useContext(ThemeCtx).dusk ? ' dusk' : '')}>
         <Masthead />
         <main className="ew-wrap ew-archive">
             <h1>watch</h1>
-            <p className="ew-lede">Videos from my other corner of the internet: @purpleplum456 on tiktok, youtube and instagram. Latest three from each.</p>
+            <p className="ew-lede">Videos from my other corners of the internet: @ellielwang and @purpleplum456 on youtube, plus @purpleplum456 on tiktok and instagram. Latest three from each.</p>
             <section className="ew-vidsec">
                 <div className="ew-ghead"><h2>youtube</h2><a className="ew-meta" href="https://www.youtube.com/@purpleplum456" target="_blank" rel="noreferrer">@purpleplum456 &rarr;</a></div>
                 <div className="ew-vidgrid ew-vidgrid-yt">
                     {yt.map((v) => <figure className="ew-vid" key={v.id}>
+                        <iframe src={'https://www.youtube-nocookie.com/embed/' + v.id} title={'YouTube video: ' + v.t} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen loading="lazy" />
+                        <figcaption>{v.t}</figcaption>
+                    </figure>)}
+                </div>
+            </section>
+            <section className="ew-vidsec">
+                <div className="ew-ghead"><h2>youtube</h2><a className="ew-meta" href="https://www.youtube.com/@ellielwang" target="_blank" rel="noreferrer">@ellielwang &rarr;</a></div>
+                <div className="ew-vidgrid ew-vidgrid-yt">
+                    {ytm.map((v) => <figure className="ew-vid" key={v.id}>
                         <iframe src={'https://www.youtube-nocookie.com/embed/' + v.id} title={'YouTube video: ' + v.t} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen loading="lazy" />
                         <figcaption>{v.t}</figcaption>
                     </figure>)}
