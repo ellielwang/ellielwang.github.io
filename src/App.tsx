@@ -430,7 +430,7 @@ function Watch() {
             </section>
             <section className="ew-vidsec">
                 <div className="ew-ghead"><h2>instagram</h2><a className="ew-meta" href="https://www.instagram.com/purpleplum456/" target="_blank" rel="noreferrer">@purpleplum456 &rarr;</a></div>
-                <div className="ew-vidgrid ew-vidgrid-portrait">
+                <div className="ew-vidgrid ew-vidgrid-portrait ew-vidgrid-ig">
                     {ig.map((id) => <figure className="ew-vid" key={id}>
                         <iframe src={'https://www.instagram.com/reel/' + id + '/embed'} title="Instagram reel by @purpleplum456" allow="encrypted-media; picture-in-picture" allowFullScreen loading="lazy" />
                     </figure>)}

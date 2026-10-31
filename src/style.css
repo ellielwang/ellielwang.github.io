@@ -254,7 +254,8 @@ body { background: #fbe4ea; }
 .ew-vid iframe { width: 100%; display: block; border: 1px solid var(--line); border-radius: 8px; background: #000; }
 .ew-vidgrid-yt iframe { aspect-ratio: 16/9; }
 .ew-vidgrid-portrait iframe { aspect-ratio: 9/16; }
+.ew-vidgrid-ig iframe { min-height: 720px; }
 .ew-vid figcaption { margin-top: 8px; color: var(--soft); font-size: 14px; }
 .ew-vidsec .ew-meta { text-decoration: none; }
 .ew-vidsec .ew-meta:hover { color: var(--accent); }
-@media (max-width: 700px) { .ew-vidgrid-yt { grid-template-columns: 1fr; } .ew-vidgrid-portrait { grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px; } }
+@media (max-width: 700px) { .ew-vidgrid-yt { grid-template-columns: 1fr; } .ew-vidgrid-portrait { grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px; } .ew-vidgrid-ig { grid-template-columns: repeat(2, minmax(0,1fr)); } .ew-vidgrid-ig iframe { min-height: 560px; } }
