@@ -400,14 +400,14 @@ function Archive({ section, oldestFirst }: { section?: string; oldestFirst?: boo
 
 function Watch() {
     const yt = [
-        { id: 'trHIpo5EYes', t: 'recovering from burnout!' },
-        { id: 'oZE3IDaaISk', t: 'letting failure teach you' },
-        { id: 'BDaOjccUpFI', t: 'mentality is everything' },
+        { id: 'SR6YNxZ9KjA', t: "treat yourself the way you’d treat your loved ones" },
+        { id: 'LCS9ppCyKwQ', t: "your younger self wasn’t supposed to know" },
+        { id: '9SCkkluTrSw', t: "be careful what you tell yourself, because you’ll believe it" },
     ];
     const ytm = [
-        { id: 'Qp-clQ39zog', t: 'day 108: went to garba for the first time!' },
         { id: 'Lvq4caLEGRQ', t: '2/7/2025' },
-        { id: 'a2VHkGNbTzU', t: 'old dance clip' },
+        { id: 'AjmUizp9poA', t: 'March 27th, 2025: Ivy day (3 college rejections)' },
+        { id: 'HkPfwA4GLBw', t: 'Dream High - Northview High School International Night B Show 1/30/2025' },
     ];
     const tt = ['7702724127001562398', '7702345104039709982', '7701877212714224926'];
     const ig = ['DfJlUg7x3s_', 'DfG853mxj36', 'DfDs9DwJRG-'];
@@ -415,10 +415,10 @@ function Watch() {
         <Masthead />
         <main className="ew-wrap ew-archive">
             <h1>watch</h1>
-            <p className="ew-lede">Videos from my other corners of the internet: @ellielwang and @purpleplum456 on youtube, plus @purpleplum456 on tiktok and instagram. Latest three from each.</p>
+            <p className="ew-lede">Videos from my other corners of the internet: @ellielwang and @purpleplum456 on youtube, plus @purpleplum456 on tiktok and instagram. Most-viewed three from each.</p>
             <section className="ew-vidsec">
                 <div className="ew-ghead"><h2>youtube</h2><a className="ew-meta" href="https://www.youtube.com/@purpleplum456" target="_blank" rel="noreferrer">@purpleplum456 &rarr;</a></div>
-                <div className="ew-vidgrid ew-vidgrid-yt">
+                <div className="ew-vidgrid ew-vidgrid-portrait">
                     {yt.map((v) => <figure className="ew-vid" key={v.id}>
                         <iframe src={'https://www.youtube-nocookie.com/embed/' + v.id} title={'YouTube video: ' + v.t} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen loading="lazy" />
                         <figcaption>{v.t}</figcaption>
