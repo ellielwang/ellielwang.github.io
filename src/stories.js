@@ -1175,5 +1175,13 @@ export default [
  "images": [
   "src/photos/stories/10-30-2026-wilman-chan-0.jpg"
  ]
+},
+{
+ "date": "10/31/2026",
+ "name": "muneeb ahmad khan",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a cold message that led somewhere he wasn't expecting!\n\nMuneeb Ahmad Khan started learning copywriting (writing persuasive marketing and promotional text) from a free course on YouTube. He made samples, got feedback, and began reaching out to people.\n\nOne person he contacted was looking for someone in sales.\n\nMuneeb gave it a try, and found himself doing something he already loved: talking to people!\n\nWhen we talked, he was studying economics!\n\nBut he hadn't finished his A levels knowing exactly what he wanted to do.\n\nHe told me how much pressure there can be to choose a degree when you're still figuring out what interests you.\n\nFor Muneeb, getting more exposure has been a way to figure that out.\n\nHe volunteered to teach students, then had an internship researching informal education in communities where building a school wasn't an option.\n\nMuneeb visited community schools, interviewed people involved in the work, and wrote recommendations for the organization.\n\nHe saw people who were passionate about learning and needed the resources to do it.\n\nTeaching had given him one perspective, and researching how education could reach more people gave him another!\n\nMuneeb plays different sports, has worked in sales, and likes learning through conversations. He doesn't want to limit himself to one field before he's had the chance to explore it!\n\nHe's also learned that getting comfortable takes practice.\n\nAfter his A levels, Muneeb wasn't as fluent in English as he wanted to be.\n\nTalking to people around the world and recording videos for job applications helped him build his confidence.\n\nThose videos weren't comfortable at first, but he kept making them, watching them back, and noticing what he could improve.\n\nMuneeb compared consistency to going to the gym.\n\nYou don't expect day one and day 100 to look the same, and you can't expect to see all the results after a day or two!\n\nOur conversation came back to the same thing he was practicing himself: you don't have to be an expert before you start.\n\nTrying, talking to people, and giving yourself time can help you find what you want to keep doing.\n\nVery grateful for Muneeb Ahmad Khan sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/10-31-2026-muneeb-ahmad-khan-0.jpg"
+ ]
 }
 ];
