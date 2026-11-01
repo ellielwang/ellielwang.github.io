@@ -259,3 +259,11 @@ body { background: #fbe4ea; }
 .ew-vidsec .ew-meta { text-decoration: none; }
 .ew-vidsec .ew-meta:hover { color: var(--accent); }
 @media (max-width: 700px) { .ew-vidgrid-yt { grid-template-columns: 1fr; } .ew-vidgrid-portrait { grid-template-columns: 1fr; gap: 18px; } .ew-vidgrid-ig { grid-template-columns: 1fr; } .ew-vidgrid-ig iframe { min-height: 780px; } }
+.ew-vloggrid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; margin-top: 16px; }
+.ew-vlog { text-decoration: none; color: inherit; }
+.ew-vlogthumb { position: relative; display: block; aspect-ratio: 16/9; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #000; }
+.ew-vlogthumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ew-vlogplay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 26px; text-shadow: 0 1px 6px rgba(0,0,0,.65); opacity: .92; }
+.ew-vlogcap { display: block; margin-top: 8px; color: var(--soft); font-size: 14px; }
+.ew-vlog:hover .ew-vlogcap { color: var(--accent); }
+@media (max-width: 700px) { .ew-vloggrid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; } .ew-vlogcap { font-size: 12px; } }

@@ -3,6 +3,7 @@ import { FileCard, Link, Route, Routes } from './files-shim';
 import stories from './stories.js';
 import diary from './diary.js';
 import { SECTIONS, sectionsFor, excerpt } from './sections.js';
+import { STUDY_ABROAD, COLLEGE, SUMMER, HIGH_SCHOOL } from './vlogs.js';
 import storyImages from './storyImages.js';
 import './fonts.css';
 import './style.css';
@@ -75,12 +76,14 @@ function Masthead() {
                         <Link to="/stories" tabIndex={k === 1 ? -1 : undefined}>all stories</Link>
                         <Link to="/diary" tabIndex={k === 1 ? -1 : undefined}>digital diary</Link>
                         <Link to="/watch" tabIndex={k === 1 ? -1 : undefined}>watch</Link>
+                        <Link to="/youtube" tabIndex={k === 1 ? -1 : undefined}>youtube</Link>
                     </div>)}
                 </div>
             </div>
             <div className="ew-navfix">
                 <button className="ew-navbtn" onClick={goNewsletter}>newsletter</button>
                 <Link to="/watch">watch</Link>
+                <Link to="/youtube">youtube</Link>
                 <a href="#about">about</a>
                 <a href="#contact">contact</a>
             </div>
@@ -404,6 +407,11 @@ function Watch() {
         { id: 'LCS9ppCyKwQ', t: "your younger self wasn’t supposed to know" },
         { id: '9SCkkluTrSw', t: "be careful what you tell yourself, because you’ll believe it" },
     ];
+    const abroad = [
+        { id: '1UPPb4QnNVY', t: 'university of oxford study abroad (ft. scotland, barcelona)' },
+        { id: 'ae6adH1ko5M', t: 'maymester in germany & italy' },
+        { id: 'YSD1UqBA-Po', t: 'germany spring break (uga studyaway)' },
+    ];
     const ytm = [
         { id: 'Lvq4caLEGRQ', t: '2/7/2025' },
         { id: 'AjmUizp9poA', t: 'March 27th, 2025: Ivy day (3 college rejections)' },
@@ -416,6 +424,15 @@ function Watch() {
         <main className="ew-wrap ew-archive">
             <h1>watch</h1>
             <p className="ew-lede">Videos from my other corners of the internet: @ellielwang and @purpleplum456 on youtube, plus @purpleplum456 on tiktok and instagram. Most-viewed three from each youtube channel, latest three from tiktok and instagram.</p>
+            <section className="ew-vidsec">
+                <div className="ew-ghead"><h2>study abroad</h2><a className="ew-meta" href="https://www.youtube.com/@ellielwang" target="_blank" rel="noreferrer">@ellielwang &rarr;</a></div>
+                <div className="ew-vidgrid ew-vidgrid-yt">
+                    {abroad.map((v) => <figure className="ew-vid" key={v.id}>
+                        <iframe src={'https://www.youtube-nocookie.com/embed/' + v.id} title={'YouTube video: ' + v.t} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen loading="lazy" />
+                        <figcaption>{v.t}</figcaption>
+                    </figure>)}
+                </div>
+            </section>
             <section className="ew-vidsec">
                 <div className="ew-ghead"><h2>youtube</h2><a className="ew-meta" href="https://www.youtube.com/@purpleplum456" target="_blank" rel="noreferrer">@purpleplum456 &rarr;</a></div>
                 <div className="ew-vidgrid ew-vidgrid-portrait">
@@ -455,6 +472,35 @@ function Watch() {
     </div>;
 }
 
+type Vlog = { id: string; t: string };
+
+function VlogSec({ label, items }: { label: string; items: Vlog[] }) {
+    return <section className="ew-vidsec">
+        <div className="ew-ghead"><h2>{label}</h2><span className="ew-meta">{items.length} {items.length === 1 ? 'video' : 'videos'}</span></div>
+        <div className="ew-vloggrid">
+            {items.map((v) => <a className="ew-vlog" key={v.id} href={'https://www.youtube.com/watch?v=' + v.id} target="_blank" rel="noreferrer">
+                <span className="ew-vlogthumb"><img src={'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg'} alt="" loading="lazy" /><span className="ew-vlogplay" aria-hidden="true">&#9654;</span></span>
+                <span className="ew-vlogcap">{v.t}</span>
+            </a>)}
+        </div>
+    </section>;
+}
+
+function YouTube() {
+    return <div className={'ew' + (React.useContext(ThemeCtx).dusk ? ' dusk' : '')}>
+        <Masthead />
+        <main className="ew-wrap ew-archive">
+            <h1>youtube</h1>
+            <p className="ew-lede">Every vlog from <a href="https://www.youtube.com/@ellielwang" target="_blank" rel="noreferrer">@ellielwang</a>, grouped by era: study abroad, college, the summer before it, and high school. Click any card to watch on youtube.</p>
+            <VlogSec label="study abroad" items={STUDY_ABROAD} />
+            <VlogSec label="college vlogging" items={COLLEGE} />
+            <VlogSec label="the summer before college" items={SUMMER} />
+            <VlogSec label="high school vlogging" items={HIGH_SCHOOL} />
+            <Foot />
+        </main>
+    </div>;
+}
+
 export function App() {
     const [dusk, setDusk] = React.useState(false);
     React.useEffect(() => { document.body.style.background = dusk ? '#2b1322' : '#fbe4ea'; document.documentElement.style.background = dusk ? '#2b1322' : '#fbe4ea'; }, [dusk]);
@@ -465,6 +511,7 @@ export function App() {
             <Route path="/stories/chronological" element={<Archive oldestFirst />} />
             <Route path="/diary" element={<Diary />} />
             <Route path="/watch" element={<Watch />} />
+            <Route path="/youtube" element={<YouTube />} />
             {SECTIONS.map((x) => <Route key={x.slug} path={'/section/' + x.slug} element={<Archive section={x.slug} />} />)}
         </Routes>
     </FileCard></ThemeCtx.Provider>;
