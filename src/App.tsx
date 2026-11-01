@@ -474,15 +474,25 @@ function Watch() {
 
 type Vlog = { id: string; t: string };
 
-function VlogSec({ label, items }: { label: string; items: Vlog[] }) {
+function VlogGrid({ items }: { items: Vlog[] }) {
+    return <div className="ew-vloggrid">
+        {items.map((v) => <a className="ew-vlog" key={v.id} href={'https://www.youtube.com/watch?v=' + v.id} target="_blank" rel="noreferrer">
+            <span className="ew-vlogthumb"><img src={'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg'} alt="" loading="lazy" /><span className="ew-vlogplay" aria-hidden="true">&#9654;</span></span>
+            <span className="ew-vlogcap">{v.t}</span>
+        </a>)}
+    </div>;
+}
+
+function VlogSec({ label, items, months }: { label: string; items?: Vlog[]; months?: { m: string; note: string; items: Vlog[] }[] }) {
+    const count = items ? items.length : (months || []).reduce((n, g) => n + g.items.length, 0);
     return <section className="ew-vidsec">
-        <div className="ew-ghead"><h2>{label}</h2><span className="ew-meta">{items.length} {items.length === 1 ? 'video' : 'videos'}</span></div>
-        <div className="ew-vloggrid">
-            {items.map((v) => <a className="ew-vlog" key={v.id} href={'https://www.youtube.com/watch?v=' + v.id} target="_blank" rel="noreferrer">
-                <span className="ew-vlogthumb"><img src={'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg'} alt="" loading="lazy" /><span className="ew-vlogplay" aria-hidden="true">&#9654;</span></span>
-                <span className="ew-vlogcap">{v.t}</span>
-            </a>)}
-        </div>
+        <div className="ew-ghead"><h2>{label}</h2><span className="ew-meta">{count} {count === 1 ? 'video' : 'videos'}</span></div>
+        {items && <VlogGrid items={items} />}
+        {(months || []).map((g) => <div className="ew-vlogmonth" key={g.m}>
+            <h3>{g.m}</h3>
+            {g.note && <p className="ew-vlognote">{g.note}</p>}
+            <VlogGrid items={g.items} />
+        </div>)}
     </section>;
 }
 
@@ -493,9 +503,9 @@ function YouTube() {
             <h1>youtube</h1>
             <p className="ew-lede">Every vlog from <a href="https://www.youtube.com/@ellielwang" target="_blank" rel="noreferrer">@ellielwang</a>, grouped by era: study abroad, college, the summer before it, and high school. Click any card to watch on youtube.</p>
             <VlogSec label="study abroad" items={STUDY_ABROAD} />
-            <VlogSec label="college vlogging" items={COLLEGE} />
+            <VlogSec label="college vlogging" months={COLLEGE} />
             <VlogSec label="the summer before college" items={SUMMER} />
-            <VlogSec label="high school vlogging" items={HIGH_SCHOOL} />
+            <VlogSec label="high school vlogging" months={HIGH_SCHOOL} />
             <Foot />
         </main>
     </div>;

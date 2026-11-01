@@ -267,3 +267,6 @@ body { background: #fbe4ea; }
 .ew-vlogcap { display: block; margin-top: 8px; color: var(--soft); font-size: 14px; }
 .ew-vlog:hover .ew-vlogcap { color: var(--accent); }
 @media (max-width: 700px) { .ew-vloggrid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; } .ew-vlogcap { font-size: 12px; } }
+.ew-vlogmonth { margin-top: 28px; }
+.ew-vlogmonth h3 { font-family: inherit; font-weight: 500; font-size: 20px; margin: 0 0 4px; }
+.ew-vlognote { margin: 0 0 6px; color: var(--soft); font-size: 14px; font-style: italic; }
