@@ -237,6 +237,9 @@ import i235 from './photos/stories/10-29-2026-haolin-feng-1.jpg';
 import i236 from './photos/stories/10-30-2026-wilman-chan-0.jpg';
 import i237 from './photos/stories/10-31-2026-muneeb-ahmad-khan-0.jpg';
 import i238 from './photos/stories/11-1-2026-rutger-wiersma-0.jpg';
+import i239 from './photos/stories/11-2-2026-andrew-hsu-0.jpg';
+import i240 from './photos/stories/11-2-2026-andrew-hsu-1.jpg';
+import i241 from './photos/stories/11-2-2026-andrew-hsu-2.jpg';
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -477,5 +480,8 @@ export default {
   "src/photos/stories/10-29-2026-haolin-feng-1.jpg": i235,
   "src/photos/stories/10-30-2026-wilman-chan-0.jpg": i236,
   "src/photos/stories/10-31-2026-muneeb-ahmad-khan-0.jpg": i237,
-  "src/photos/stories/11-1-2026-rutger-wiersma-0.jpg": i238
+  "src/photos/stories/11-1-2026-rutger-wiersma-0.jpg": i238,
+  "src/photos/stories/11-2-2026-andrew-hsu-0.jpg": i239,
+  "src/photos/stories/11-2-2026-andrew-hsu-1.jpg": i240,
+  "src/photos/stories/11-2-2026-andrew-hsu-2.jpg": i241
 };

@@ -1191,5 +1191,15 @@ export default [
  "images": [
   "src/photos/stories/11-1-2026-rutger-wiersma-0.jpg"
  ]
+},
+{
+ "date": "11/2/2026",
+ "name": "andrew hsu",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a piano in downtown Athens!\n\nBefore I even set foot on The University of Georgia's campus last fall for my freshman year, I'd been watching Andrew Hsu's videos of himself playing piano out in downtown Athens.\n\nI'd started playing piano when I was 4 years old, and I thought what he was doing was really cool!\n\nAndrew started street performing in May 2022 with just a keyboard, with no amp or mic. He was scared the first time, but as soon as he started playing, that fear went away. The Athens community supported him from day one!\n\nFor four years, people sang Bruno Mars with him, requested Interstellar, and joined together for Piano Man, encouraging him to keep going.\n\nI reached out in July when I was learning about content creation and figured I had a lot to learn from him!\n\nWe talked about everything from content strategy to the Hacker House model!\n\nWhen we first spoke, I was on a long hiatus from piano.\n\nHe inspired me to get back into it, and a little while later, I revived the piano account I'd had since I was 15 and started posting recordings of myself playing again!\n\nI recently got to catch up with him again and hear about what he'd been building.\n\nHis agency he co-founded with Samuel Lee, Creo Influence, runs influencer marketing campaigns, helping brands work with creators.\n\nAndrew reached out to other agencies doing similar work and found ways to partner with them. When they had more campaigns than they could take on, he helped run them.\n\nHe's also started building a tool to help creators manage their brand deals, from the first email to the final payment.\n\nAndrew talked about learning from other companies in his space: looking at how they grew, then changing one or two things to fit what he's building.\n\nI had so much to learn from a UGA Alumni who's brought music to Athens and is now building in the creator space (Go Dawgs)!\n\nVery grateful for Andrew Hsu sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-2-2026-andrew-hsu-0.jpg",
+  "src/photos/stories/11-2-2026-andrew-hsu-1.jpg",
+  "src/photos/stories/11-2-2026-andrew-hsu-2.jpg"
+ ]
 }
 ];
