@@ -1201,5 +1201,14 @@ export default [
   "src/photos/stories/11-2-2026-andrew-hsu-1.jpg",
   "src/photos/stories/11-2-2026-andrew-hsu-2.jpg"
  ]
+},
+{
+ "date": "11/3/2026",
+ "name": "tristan ly",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a question he asks before posting: would I stay or scroll at 3am?\n\nTristan Ly told me that in his first semester at Toronto Metropolitan University, he wanted to go a traditional route in business.\n\nBy February, he'd seen a video of someone doing UGC (user generated content, where creators make videos for brands) and got curious.\n\nHe worked closely with brands, made a bunch of connections, and got flown out to SF in April.\n\nThat week showed Tristan he was accelerating faster than he thought he could, and he made getting to SF his goal.\n\nHe hit his biggest month yet, but began to pivot out of doing UGC alone.\n\nSo Tristan moved into campaign management and internal growth roles, and eventually landed at Audora (YC F26), where he's building on everything he learned.\n\nHe's now generated over 6 million views, and he pointed out that a lot of it came from studying why videos went viral.\n\nHe’d ask himself: would he stay or scroll if he were watching at 3am?\n\nTristan's advice stuck with me: the people who do best think about something and then execute, instead of getting stuck in analysis paralysis.\n\nHe also told me he's always had a story going somewhere in his life: a podcast on a walk, an audiobook while cooking, a show on while he works.\n\nStories are how he recharges, and he believes everyone deserves that.\n\nBut he was concerned that many people have lost touch with reading because life got busy.\nTristan sees Audora as a way to give that back.\n\nTalking with him about how Audora approaches distribution and product positioning showed me how intentional the team is.\n\nTristan wants anyone, anywhere, to find that feeling again, whether it's comfort at the end of a long day or falling back in love with stories they thought they'd left behind.\n\nVery grateful for Tristan Ly sharing his story with me, and for every person who's shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-3-2026-tristan-ly-0.jpg",
+  "src/photos/stories/11-3-2026-tristan-ly-1.jpg"
+ ]
 }
 ];
