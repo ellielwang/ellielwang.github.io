@@ -242,6 +242,7 @@ import i240 from './photos/stories/11-2-2026-andrew-hsu-1.jpg';
 import i241 from './photos/stories/11-2-2026-andrew-hsu-2.jpg';
 import i242 from './photos/stories/11-3-2026-tristan-ly-0.jpg';
 import i243 from './photos/stories/11-3-2026-tristan-ly-1.jpg';
+import i244 from './photos/stories/11-4-2026-arda-dinc-0.jpg';
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -487,5 +488,6 @@ export default {
   "src/photos/stories/11-2-2026-andrew-hsu-1.jpg": i240,
   "src/photos/stories/11-2-2026-andrew-hsu-2.jpg": i241,
   "src/photos/stories/11-3-2026-tristan-ly-0.jpg": i242,
-  "src/photos/stories/11-3-2026-tristan-ly-1.jpg": i243
+  "src/photos/stories/11-3-2026-tristan-ly-1.jpg": i243,
+  "src/photos/stories/11-4-2026-arda-dinc-0.jpg": i244
 };

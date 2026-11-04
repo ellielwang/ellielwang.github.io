@@ -1210,5 +1210,13 @@ export default [
   "src/photos/stories/11-3-2026-tristan-ly-0.jpg",
   "src/photos/stories/11-3-2026-tristan-ly-1.jpg"
  ]
+},
+{
+ "date": "11/4/2026",
+ "name": "arda dinc",
+ "body": "Continuing to tell these stories, one at a time. This one starts with someone who has coded since 6th grade, and thinks you can start today!\n\nArda Dinc is a senior at New York University studying computer science!\n\nHe was born in Turkey, grew up in California, and has been coding since 6th grade, starting with Java and later learning C++ and Python.\n\nArda told me that when he started, he initially thought coding meant becoming a software engineer.\n\nToday, he sees more ways for people to start building, even if that wasn't their original path.\n\nHe still thinks the foundations matter!\n\nHe compared it to taking calculus and then recognizing how those ideas connect to finance.\n\nYou might be working in a different area, but what you learned helps you understand what's in front of you!\n\nArda shared how he thinks about building.\n\nIf you want to start a company, not being technical doesn't have to be a reason you can't begin, because you can learn.\n\nHis advice: build credibility in a sector by actually working in it, since you can't solve a problem you don't understand.\n\nFind your first design partner, build quietly for a couple of months, and build a team!\n\nHe also reminded me to understand why a sector is taking off.\n\nA lot of people talk about an industry without knowing it, so go to the root reasons it's growing.\n\nFor Arda, trading in his free time led him into finance and building tools for it.\n\nOne piece of advice I actually took: build my own website.\n\nHe told me that once I had my own site and started putting projects on the web, I'd keep finding more things I wanted to build.\n\nI can finally write about this conversation now that I built and have my own website!\n\nI took his advice and started learning how to be more technical!\n\nIt's something I get to keep working on, and now I have a place to put what I build, and I highly recommend it.\n\nVery grateful for Arda Dinc sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-4-2026-arda-dinc-0.jpg"
+ ]
 }
 ];
