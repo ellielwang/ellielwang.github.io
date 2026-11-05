@@ -1218,5 +1218,13 @@ export default [
  "images": [
   "src/photos/stories/11-4-2026-arda-dinc-0.jpg"
  ]
+},
+{
+ "date": "11/5/2026",
+ "name": "cory poon",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a VALORANT banner during the pandemic!\n\nCory Poon told me his path began in 2020, at the peak of COVID, when he was finishing high school.\n\nHe started streaming Valorant and drawing on stream, and when he posted a picture of one of his designs on TikTok, it took off!\n\nPeople wanted banners showing off their rank, so Cory built a website where they could order designs, which he made in Adobe and sent to a manufacturer.\n\nLater, he wrote code to automate the backend so orders went straight to the manufacturer.\n\nHe was peak Ascendant 1 as a streamer, and I reflected on my few months I spent playing the game on my mom's laggy laptop during the pandemic!\n\nThat banner website is what led Cory to UI and UX design.\n\nHe had spent his first two years of college studying environmental science, but after building the site he googled what people at UCLA study to get into design, and the answer was cognitive science.\n\nHe told me he's happy he tried it, because you only know if you like something by experiencing it!\n\nToday, Cory is a co-founder of Psyche, building Peli, a self-discovery app that takes you through an archipelago of islands representing different parts of your personality.\n\nThe idea grew out of conversations with psychology researchers at UCLA.\n\nThe team wanted to make taking surveys feel fun and meaningful, rather than like another generic personality quiz.\n\nI also appreciated how he described the work behind the launch.\n\nLaunching on the app stores was the easy part, Cory said.\n\nThe most difficult part was four months of research and development, testing different formats with friends and his old online community, and listening to what people liked and didn't like.\n\nCory has played piano and clarinet his whole life, and in college he picked up Chinese instruments like the guzheng to reconnect with his roots.\n\nHe went on to help build up the UCLA Chinese Music Ensemble, and he still plays and composes today!\n\nHe inspired me to continue picking up the piano again after an extended hiatus!\n\nVery grateful to Cory Poon for sharing his story with me, and to every person who's shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-5-2026-cory-poon-0.jpg"
+ ]
 }
 ];
