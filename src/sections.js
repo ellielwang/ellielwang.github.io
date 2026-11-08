@@ -12,6 +12,8 @@ export const SECTIONS = [
   { slug: 'agriculture', label: 'agriculture & farming' },
 ];
 const CURATED = {
+  "11/8/2026|emma chaffee": ["startups","tech"],
+  "11/7/2026|leonard ang": ["startups"],
   "11/6/2026|atharva jaywant": ["startups","tech"],
   "11/5/2026|cory poon": ["startups","tech"],
   "11/4/2026|arda dinc": ["tech","fintech"],
