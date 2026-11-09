@@ -249,6 +249,8 @@ import i247 from './photos/stories/11-7-2026-leonard-ang-0.jpg';
 import i248 from './photos/stories/11-8-2026-emma-chaffee-0.jpg';
 import i249 from './photos/stories/11-8-2026-emma-chaffee-1.jpg';
 import i250 from './photos/stories/11-8-2026-emma-chaffee-2.jpg';
+import i251 from './photos/stories/11-9-2026-ameya-naduvalath-0.jpg';
+import i252 from './photos/stories/11-9-2026-ameya-naduvalath-1.jpg';
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -501,5 +503,7 @@ export default {
   "src/photos/stories/11-7-2026-leonard-ang-0.jpg": i247,
   "src/photos/stories/11-8-2026-emma-chaffee-0.jpg": i248,
   "src/photos/stories/11-8-2026-emma-chaffee-1.jpg": i249,
-  "src/photos/stories/11-8-2026-emma-chaffee-2.jpg": i250
+  "src/photos/stories/11-8-2026-emma-chaffee-2.jpg": i250,
+  "src/photos/stories/11-9-2026-ameya-naduvalath-0.jpg": i251,
+  "src/photos/stories/11-9-2026-ameya-naduvalath-1.jpg": i252
 };
