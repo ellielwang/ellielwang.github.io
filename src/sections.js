@@ -12,6 +12,7 @@ export const SECTIONS = [
   { slug: 'agriculture', label: 'agriculture & farming' },
 ];
 const CURATED = {
+  "11/10/2026|paarth khopkar": ["tech","creators"],
   "11/9/2026|ameya naduvalath": ["creators"],
   "11/8/2026|emma chaffee": ["startups","tech"],
   "11/7/2026|leonard ang": ["startups"],

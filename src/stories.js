@@ -1261,5 +1261,13 @@ export default [
   "src/photos/stories/11-9-2026-ameya-naduvalath-0.jpg",
   "src/photos/stories/11-9-2026-ameya-naduvalath-1.jpg"
  ]
+},
+{
+ "date": "11/10/2026",
+ "name": "paarth khopkar",
+ "body": "Continuing to tell these stories, one at a time. This one starts with someone learning to build a health tracker from his own Fitbit data!\n\nPaarth Khopkar shared with me that his mom loved biology, and when he came home, she'd take the chance to teach him more about it.\n\nFor most of university, he pictured himself working in healthcare.\n\nPaarth grew up about an hour outside Toronto!\n\nThen, in April, a friend introduced him to building with AI.\n\nHe started taking a Python course and trying projects of his own, including a tracker that pulls his Fitbit data together to analyze his workouts week to week.\n\nPaarth shared with me that he has a lot of interests: healthcare, machine learning, and content creation, and he's still exploring how they fit together.\n\nAt Toronto Tech Week, he found himself asking how someone with so many interests should introduce himself to founders.\n\nWhen we talked, he was still figuring out what kind of work he wanted to pursue, but he knew he enjoyed learning and making things!\n\nOne thing he's learned about following through is to make habits sustainable.\n\nWhen Paarth wanted to start meditating, ten minutes every day didn't feel like something he'd keep doing.\n\nSo he started with three minutes before bed, a small baseline he could come back to consistently!\n\nHe thinks about creating content in a similar way: finding a routine he can maintain, instead of doing so much at once that he can't keep going.\n\nAnd one of his favorite parts of posting on LinkedIn has been hearing from people who want to know how he got started.\n\nPaarth told me he enjoys taking the time to send a detailed, helpful reply.\n\nSomething he's only recently figured out for himself can become a starting point for someone else!\n\nHe's still learning what he wants to do, but he's already finding ways to share what he knows along the way.\n\nHis takeaway from reaching out to people is one I keep hearing in these conversations: people are willing to help when you ask genuinely!\n\nVery grateful for Paarth Khopkar sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-10-2026-paarth-khopkar-0.jpg"
+ ]
 }
 ];
