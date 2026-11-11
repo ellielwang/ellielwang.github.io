@@ -1269,5 +1269,14 @@ export default [
  "images": [
   "src/photos/stories/11-10-2026-paarth-khopkar-0.jpg"
  ]
+},
+{
+ "date": "11/11/2026",
+ "name": "oscar gaske",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a high school science fair!\n\nOscar Gaske never competed in a science fair himself, but his mom organized one with 75 judges and 200 students!\n\nSeeing how much work went into bringing it all together gave him an idea for something he could build.\n\nHe began working on Rudy, a tool to help science fair organizers manage the work behind their events.\n\nAnd instead of only going off what he already knew, he started asking questions.\n\nNearly 20 conversations with fair organizers helped him understand their planning process, including the additional requirements that come with Regeneron's International Science and Engineering Fair (ISEF)-affiliated fairs.\n\nHe wanted to automate the administrative work that takes up so much of an organizer's time!\n\nIt's the first project he sees real product potential in, and it started with a problem close to home.\n\nOscar's building it while balancing school and a full-time remote role at a startup.\n\nWhen he first started that role, he had no startup experience.\n\nNow, his advice to other students is to try working at a startup at least once!\n\nIn his experience, the pace and lack of structure can give you plenty of room to learn, even if you eventually decide it isn't for you.\n\nHe's also figuring out what he wants from college; he enjoys building his own projects, but he's leaning toward enjoying his time in school rather than rushing through it.\n\nOscar described being a student as a kind of superpower: a reason to reach out, ask questions, and learn from people willing to share what they know.\n\nHe sees conversations as part of that opportunity!\n\nOutside of work and Rudy, he's training for a marathon, has blog drafts waiting to be polished, and wants to get back to piano and making YouTube videos.\n\nHis first product started with his mom's science fair.\n\nNearly 20 conversations later, he's learning how many other organizers face similar challenges, and building with what they tell him.\n\nVery grateful for Oscar Gaske sharing his story with me, and for every person who has shown me the same thing: you just have to ask!\n\nP.S. Check out Rudy on Pitcher: https://lnkd.in/ecyxTRvW, and thanks to Vincent Todd for connecting us!",
+ "images": [
+  "src/photos/stories/11-11-2026-oscar-gaske-0.jpg",
+  "src/photos/stories/11-11-2026-oscar-gaske-1.jpg"
+ ]
 }
 ];

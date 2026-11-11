@@ -253,6 +253,9 @@ import i251 from './photos/stories/11-9-2026-ameya-naduvalath-0.jpg';
 import i252 from './photos/stories/11-9-2026-ameya-naduvalath-1.jpg';
 import i253 from "./photos/stories/11-10-2026-paarth-khopkar-0.jpg";
 
+import i254 from "./photos/stories/11-11-2026-oscar-gaske-0.jpg";
+import i255 from "./photos/stories/11-11-2026-oscar-gaske-1.jpg";
+
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
   "src/photos/stories/10-10-2026-radin-shahravan-0.png": i1,
@@ -508,4 +511,6 @@ export default {
   "src/photos/stories/11-9-2026-ameya-naduvalath-0.jpg": i251,
   "src/photos/stories/11-9-2026-ameya-naduvalath-1.jpg": i252,
   "src/photos/stories/11-10-2026-paarth-khopkar-0.jpg": i253,
+  "src/photos/stories/11-11-2026-oscar-gaske-0.jpg": i254,
+  "src/photos/stories/11-11-2026-oscar-gaske-1.jpg": i255,
 };
