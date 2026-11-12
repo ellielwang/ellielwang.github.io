@@ -255,6 +255,7 @@ import i253 from "./photos/stories/11-10-2026-paarth-khopkar-0.jpg";
 
 import i254 from "./photos/stories/11-11-2026-oscar-gaske-0.jpg";
 import i255 from "./photos/stories/11-11-2026-oscar-gaske-1.jpg";
+import i256 from "./photos/stories/11-12-2026-vibhuti-bhutalia-0.jpg";
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -513,4 +514,5 @@ export default {
   "src/photos/stories/11-10-2026-paarth-khopkar-0.jpg": i253,
   "src/photos/stories/11-11-2026-oscar-gaske-0.jpg": i254,
   "src/photos/stories/11-11-2026-oscar-gaske-1.jpg": i255,
+  "src/photos/stories/11-12-2026-vibhuti-bhutalia-0.jpg": i256,
 };
