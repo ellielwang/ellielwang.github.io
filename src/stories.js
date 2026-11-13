@@ -1286,5 +1286,14 @@ export default [
  "images": [
   "src/photos/stories/11-12-2026-vibhuti-bhutalia-0.jpg"
  ]
+},
+{
+ "date": "11/13/2026",
+ "name": "trixie litan",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a university decision video that gave someone an idea for what to make next!\n\nTrixie Litan is from Surabaya, Indonesia, and moved to Toronto this fall to study at the University of Toronto.\n\nShe's been making YouTube videos for years, but she started taking short-form content more seriously in her senior year of high school!\n\nHer early videos didn't get much attention.\n\nThen, a video of her reaction to her university decision reached around 10,000 views!\n\nThat gave her a reason to keep going, and a group of people she could help: students back home in Indonesia who wanted to understand how to apply to universities in Canada.\n\nSo she started sharing what she'd learned through her series on Instagram, walking people through her own experiences with uni.\n\nShe'd just gone through a process that other students were trying to figure out, and making videos gave her a way to pass that experience along.\n\nWhen we talked, she shared some of the things she'd learned about creating content.\n\n1) Make it clear in the first few seconds who a video is for!\n\n2) Pay attention to what people respond to.\n\n3) Keep a few simpler posts ready for the weeks when school gets busy!\n\nShe also reminded me not to let the numbers decide everything.\n\nPeople save her videos, leave questions, and reach out to her, and she asks what they'd like to see next, and those conversations help her figure out what to make!\n\nAlongside studying business, making videos gives her a place to speak her mind and share what she's learning.\n\nSomething she'd figured out for herself became useful to someone else, and by listening to the people watching, she keeps finding more to share.\n\nVery grateful for Trixie Litan sharing her story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-13-2026-trixie-litan-0.jpg",
+  "src/photos/stories/11-13-2026-trixie-litan-1.jpg"
+ ]
 }
 ];
