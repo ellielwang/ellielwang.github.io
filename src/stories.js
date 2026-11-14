@@ -1295,5 +1295,14 @@ export default [
   "src/photos/stories/11-13-2026-trixie-litan-0.jpg",
   "src/photos/stories/11-13-2026-trixie-litan-1.jpg"
  ]
+},
+{
+ "date": "11/14/2026",
+ "name": "oliver cingl",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a kid in Prague making a game on his phone.\n\nOliver Cingl grew up playing video games and wanting to make his own.\n\nAt 12, he didn't have a computer, so he downloaded a coding app and started building on his phone!\n\nThrough a community of coders online, Oliver started making bots, too.\n\nOther people encouraged him to put his work on Fiverr, opening up another way to use what he was learning.\n\nIn high school, he met students who were building businesses of their own.\n\nHe started working with friends on websites and automations for companies, and presenting projects helped him become more comfortable putting himself out there.\n\nBut after building custom tools for different businesses, Oliver wanted to make something that many people could use.\n\nAt 16, he found a program sponsored by GitHub: build an app in 100 hours, and get flights and accommodations for a trip to San Francisco.\n\nHe'd never been to America and didn't know much about San Francisco's startup community.\n\nWhat was supposed to be two weeks became three months!\n\nHe met people building all kinds of things, spent time in hacker houses, and watched three teams around him get into Y Combinator, an accelerator that work with startups on their ideas and helps founders deal with investors and acquirers.\n\nThe experience opened up his perspective on what he could build and where he could go.\n\nOliver now works independently on MyFriend, a companion for seniors focused on addressing loneliness.\n\nHe spent three months testing it in beta and is continuing to learn how to get it into the hands of the people it could help.\n\nSomething he kept coming back to was trying different things: building, traveling, meeting people, and finding out what he actually enjoys doing!\n\nAs a kid, he wanted to be an architect because he liked the idea of making something people would use. That interest in creating has stayed with him, even as the form has changed.\n\nHe's also been making videos about his travels, returning to video-editing skills he started learning when he was 10 and wanted to be a YouTuber!\n\nVery grateful for Oliver Cingl sharing his story with me, and for every person who has shown me the same thing: you just have to ask!\n\nP.S. Check out MyFriend on Pitcher: https://lnkd.in/eM6fi-4g",
+ "images": [
+  "src/photos/stories/11-14-2026-oliver-cingl-0.jpg",
+  "src/photos/stories/11-14-2026-oliver-cingl-1.jpg"
+ ]
 }
 ];
