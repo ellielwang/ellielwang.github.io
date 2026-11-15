@@ -1304,5 +1304,13 @@ export default [
   "src/photos/stories/11-14-2026-oliver-cingl-0.jpg",
   "src/photos/stories/11-14-2026-oliver-cingl-1.jpg"
  ]
+},
+{
+ "date": "11/15/2026",
+ "name": "rian corcino",
+ "body": "Continuing to tell these stories, one at a time. This one starts with an empty slot on a high school schedule!\n\nRian Corcino needed a sixth class, and 'computer science' sounded like it might be what his mom did with web design.\n\nHe had no idea what it was!\n\nRian described himself as a quiet, introverted kid who loved Legos and taking things apart, and CS became the first subject that stuck.\n\nWhen his friends left for universities, he chose community college and threw himself into robotics and STEM clubs.\n\nA friend there pushed him to apply for an internship he was sure he wasn't qualified for, and that application became his first Microsoft internship.\n\nAfter transferring, he made a list of the things he'd always wanted to try: traveling the country, competing in hackathons, making videos.\n\nAt his first hackathon, he walked in solo with no idea, found three random teammates, and they won! He's still close friends with one of them today.\n\nHe won his first four in a row, traveled to New York, Boston, and Michigan on cheap flights while staying with friends he'd met online, and finished his hackathon journey this June with 10 wins.\n\nSomewhere along the way, the quiet kid who loved taking things apart became a content creator who shares what he's building, and a full-time AI engineer.\n\nAnd this August, he finally moved to San Francisco, a dream he'd been holding onto since he started college six years ago.\n\nHis advice for anyone starting out: buy the $20 air mattress so you don't ruin your back sleeping on the floor, and go try a couple of hackathons!\n\nVery grateful for Rian Corcino sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-15-2026-rian-corcino-0.jpg"
+ ]
 }
 ];

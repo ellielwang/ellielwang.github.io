@@ -260,6 +260,7 @@ import i257 from "./photos/stories/11-13-2026-trixie-litan-0.jpg";
 import i258 from "./photos/stories/11-13-2026-trixie-litan-1.jpg";
 import i259 from "./photos/stories/11-14-2026-oliver-cingl-0.jpg";
 import i260 from "./photos/stories/11-14-2026-oliver-cingl-1.jpg";
+import i261 from "./photos/stories/11-15-2026-rian-corcino-0.jpg";
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -523,4 +524,5 @@ export default {
   "src/photos/stories/11-13-2026-trixie-litan-1.jpg": i258,
   "src/photos/stories/11-14-2026-oliver-cingl-0.jpg": i259,
   "src/photos/stories/11-14-2026-oliver-cingl-1.jpg": i260,
+  "src/photos/stories/11-15-2026-rian-corcino-0.jpg": i261,
 };
