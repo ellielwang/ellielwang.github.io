@@ -261,6 +261,10 @@ import i258 from "./photos/stories/11-13-2026-trixie-litan-1.jpg";
 import i259 from "./photos/stories/11-14-2026-oliver-cingl-0.jpg";
 import i260 from "./photos/stories/11-14-2026-oliver-cingl-1.jpg";
 import i261 from "./photos/stories/11-15-2026-rian-corcino-0.jpg";
+import i262 from "./photos/stories/11-16-2026-muskan-waraich-0.jpg";
+import i263 from "./photos/stories/11-16-2026-muskan-waraich-1.jpg";
+import i264 from "./photos/stories/11-16-2026-muskan-waraich-2.jpg";
+import i265 from "./photos/stories/11-16-2026-muskan-waraich-3.jpg";
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -525,4 +529,8 @@ export default {
   "src/photos/stories/11-14-2026-oliver-cingl-0.jpg": i259,
   "src/photos/stories/11-14-2026-oliver-cingl-1.jpg": i260,
   "src/photos/stories/11-15-2026-rian-corcino-0.jpg": i261,
+  "src/photos/stories/11-16-2026-muskan-waraich-0.jpg": i262,
+  "src/photos/stories/11-16-2026-muskan-waraich-1.jpg": i263,
+  "src/photos/stories/11-16-2026-muskan-waraich-2.jpg": i264,
+  "src/photos/stories/11-16-2026-muskan-waraich-3.jpg": i265,
 };

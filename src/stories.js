@@ -1312,5 +1312,16 @@ export default [
  "images": [
   "src/photos/stories/11-15-2026-rian-corcino-0.jpg"
  ]
+},
+{
+ "date": "11/16/2026",
+ "name": "muskan waraich",
+ "body": "Continuing to tell these stories, one at a time. This one starts with an 8th grade Blue Jays game where she cheered without knowing how baseball worked!\n\nMuskan Waraich is in her third year at Lakehead University studying computer science and economics, a mix she chose because she didn't want to put herself in a box.\n\nShe thought she was applying to business information technology programs, didn't know exactly what she wanted, and picked something a little business and a little technical.\n\nThat mix is working out!\n\nShe's a co-founder at Unbound, was an Intern Insider fellow, and previously interned at Interac Corp., where her managers asked her to extend and reached out about next summer!\n\nRight now she's recruiting for software engineering internships, and she was honest with me about what that takes: two coding interviews, two behavioral ones, and all that LeetCode.\n\nMuskan shared that it is a lot of work to break into SWE, and she's still deciding if it's for her.\n\nShe's keeping her options open, applying to different roles like AI data engineering, and treating each one as a chance to learn what she actually likes!\n\nWhat I took from our conversation: you don't have to know the destination to move.\n\nMuskan started with a guess at a major, said yes to things like Unbound and mentorship at HerHacks, and keeps testing the path in front of her!\n\nVery grateful for Muskan Waraich sharing her story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-16-2026-muskan-waraich-0.jpg",
+  "src/photos/stories/11-16-2026-muskan-waraich-1.jpg",
+  "src/photos/stories/11-16-2026-muskan-waraich-2.jpg",
+  "src/photos/stories/11-16-2026-muskan-waraich-3.jpg"
+ ]
 }
 ];
