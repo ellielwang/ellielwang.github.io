@@ -1323,5 +1323,13 @@ export default [
   "src/photos/stories/11-16-2026-muskan-waraich-2.jpg",
   "src/photos/stories/11-16-2026-muskan-waraich-3.jpg"
  ]
+},
+{
+ "date": "11/17/2026",
+ "name": "rhyon caleb foz-santos",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a tutor learning to believe in himself through his students!\n\nWhen Rhyon Caleb Foz-Santos started tutoring, he shared that didn't have much confidence in himself.\n\nHe was teaching English, science, and math, but he was also scared of what the students and their parents would think of him.\n\nThen he started seeing his students grow!\n\nAs they became more confident, he started believing he could be more, too.\n\nOne of the things Rhyon didn't expect was how much they'd bond over anime and the things they found funny!\n\nHe wanted his students to feel comfortable and happy while they were learning, and helping someone understand something was one part of it; getting to know them mattered too.\n\nAnd one of those students helped him see a different path for himself.\n\nShe was studying computer science for her master's and told him there were people like him in California, taking less traditional paths and going after things that felt out of reach.\n\nRhyon told me that conversation helped pull him into tech!\n\nAt first, even the jargon was new to him.\n\nHe went on to earn cybersecurity certifications, build projects, and find software work.\n\nTutoring helped there too: he'd learned how to take something complicated and explain it simply!\n\nWhen we talked, he was also trying something else that felt unfamiliar: reaching out.\n\nHe told me he'd once had fewer than ten LinkedIn connections and barely talked to anyone online.\n\nNow, he’s been meeting people, asking for help, and letting himself be more open.\n\nHis advice was to stop waiting for the perfect anything and take a step forward, even if it's imperfect.\n\nThe same person who'd been scared of what his students would think was now telling me how much they'd helped him believe in himself!\n\nVery grateful for Rhyon Caleb Foz-Santos sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-17-2026-rhyon-caleb-foz-santos-0.jpg"
+ ]
 }
 ];
