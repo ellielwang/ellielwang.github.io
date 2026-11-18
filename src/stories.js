@@ -1331,5 +1331,13 @@ export default [
  "images": [
   "src/photos/stories/11-17-2026-rhyon-caleb-foz-santos-0.jpg"
  ]
+},
+{
+ "date": "11/18/2026",
+ "name": "irene sanders",
+ "body": "Continuing to tell these stories, one at a time. This one starts with a parent who always raised her hand!\n\nIrene Sanders was always in the group of parents who volunteered.\n\nAt her kids' schools, at her HOA, wherever someone was needed, she was the one who stepped up.\n\nThat habit is what led her to the student leadership program.\n\nA parent she knew from her kids' elementary school told her there was an opening on the board, and that she'd be great at it!\n\nMs. Sanders was about to be an empty nester, so she talked it over with her kids and took it on.\n\nThe program was in its third year and needed direction, so she had to rethink the whole thing in three weeks.\n\nNot every idea was a good one, but she kept moving it forward.\n\nWhen we talked, Ms. Sanders was in her 12th year with the program, and it had more than tripled in size!\n\nI actually got to be part of it in high school, through the Literacy Initiative, tutoring elementary school students.\n\nBy the time we talked, it had become Student Leadership North, because she wanted a name that opened the program up instead of keeping it boxed in.\n\nMore students wanted in than she had room for, so she started a one-year program for the kids who heard about it too late for the two-year one, since having to turn kids away wasn't the easiest.\n\nMs. Sanders told me about the projects her students had built, a book and traveling museum about how their community got through COVID together, where they interviewed everyone from the mayor to the governor, and a podcast about the places and names of Georgia!\n\nThe part that stuck with me is how much the students still mean to her.\n\nThey still text her for coffee when they're back home from school, just to tell her about the lives they're building, and that's where she finds lots of value!\n\nMs. Sanders also shared something I keep thinking about: in her experience, most people are kind and want to pour into you.\n\nVery grateful for Irene Sanders sharing her story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-18-2026-irene-sanders-0.jpg"
+ ]
 }
 ];
