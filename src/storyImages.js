@@ -267,6 +267,7 @@ import i264 from "./photos/stories/11-16-2026-muskan-waraich-2.jpg";
 import i265 from "./photos/stories/11-16-2026-muskan-waraich-3.jpg";
 import i266 from "./photos/stories/11-17-2026-rhyon-caleb-foz-santos-0.jpg";
 import i267 from "./photos/stories/11-18-2026-irene-sanders-0.jpg";
+import i268 from "./photos/stories/11-19-2026-noah-kostesku-0.jpg";
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -537,4 +538,5 @@ export default {
   "src/photos/stories/11-16-2026-muskan-waraich-3.jpg": i265,
   "src/photos/stories/11-17-2026-rhyon-caleb-foz-santos-0.jpg": i266,
   "src/photos/stories/11-18-2026-irene-sanders-0.jpg": i267,
+  "src/photos/stories/11-19-2026-noah-kostesku-0.jpg": i268,
 };

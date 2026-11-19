@@ -1339,5 +1339,13 @@ export default [
  "images": [
   "src/photos/stories/11-18-2026-irene-sanders-0.jpg"
  ]
+},
+{
+ "date": "11/19/2026",
+ "name": "noah kostesku",
+ "body": "Only you know your why!\n\nI recently had the opportunity to speak with Noah Kostesku, who’s finishing his thesis, all while taking five computer science courses at once!\n\nHe shared with me that he had wanted to make content since 2020.\n\nBut like me, fear kept him lurking for a while.\n\nNoah knew that many people around him were aiming for big tech and banking, and he had trouble finding startup and creator friends at school.\n\nEventually, he got tired of overthinking, and reached out to people and started posting, even though he was still figuring it out.\n\nNoah had a few examples to follow back then!\n\nHe and his friend Pavan Kumar started just days apart and figured it out together, calling each other as they started seeing people engage with their posts.\n\nHe also joined a creator fellowship with Boardy his friend Anson Lin started, and met some of his closest friends there, including Dennis Chen, the same person whose advice I sat on from January to July before I finally started posting on here!\n\nNoah shared with me that his growth was steady, and that he still replies to every comment and he's learned to balance reaching new people while taking care of the ones already there.\n\nHe shared advice with me that balance changes as your goals change!\n\nWe also talked about getting burned out, which was truly so refreshing to me.\n\nAfter posting five times a week for nine months, Noah knew that feeling too.\n\nHe shared how writing in batches helped, but also how important it was to recognize when he needed rest.\n\nHe shared that he wouldn't want sharing and talking to people to feel like a chore, and I truly related to that.\n\nThis series began as a way to thank the people who helped me, and the conversations are still what make me want to keep going!\n\nNoah's reminder was really aligned with how I felt: only you know why you're doing this, and to not let anyone else decide that for you.\n\nVery grateful for Noah Kostesku sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-19-2026-noah-kostesku-0.jpg"
+ ]
 }
 ];
