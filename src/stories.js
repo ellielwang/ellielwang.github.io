@@ -1347,5 +1347,14 @@ export default [
  "images": [
   "src/photos/stories/11-19-2026-noah-kostesku-0.jpg"
  ]
+},
+{
+ "date": "11/20/2026",
+ "name": "karu thompson",
+ "body": "How do you go from playing violin at the Sydney Opera House to building a plumbing startup?\n\nKaru Thompson shared with me that he's played violin his whole life.\n\nThis summer, he played on his orchestra's international tour to Australia and got to perform at the Sydney Opera House!\n\nI started playing violin in 4th grade, so this part of Karu's story stuck with me!\n\nPracticing a little every day teaches you to keep working at something before you can see the progress.\n\nMusic isn't the only thing he's taken that far.\n\nAs a kid, Karu came across a photographer's YouTube video and got pulled into learning everything he could about cameras, especially video.\n\nEventually, he started offering to make videos for business owners he knew around Minneapolis, and those first projects gave him work he could show the next person.\n\nAfter high school, Karu decided to keep learning by building businesses!\n\nHe knew that was what he wanted to do long term, and he wanted to see how much he could learn through experience, including the things that didn't exactly work.\n\nThat meant putting himself in rooms where he still had a lot to learn!\n\nKaru reached out to a serial entrepreneur in St. Petersburg, Florida, and asked how he could get involved.\n\nHis video background became a way into marketing for HVAC companies, with a mentor who gave him room to experiment.\n\nWorking inside those businesses also gave him a closer look at how a home repair actually happens.\n\nOne experiment let homeowners get a water-heater quote from a photo of the equipment label!\n\nAt first, it was a way to help a plumbing company's website, then Karu realized it could remove a step altogether: the visit just to give someone a quote.\n\nNow he's building Plumb around that idea!\n\nKaru calls it innovation through subtraction, asking which steps are actually needed to get the work done.\n\nHe shared that they've tested the approach with water-heater replacements in St. Petersburg, connecting homeowners with local contractors.\n\nWhat started as a marketing project had given him a much bigger problem he wanted to keep working on!\n\nWhen we first talked, Karu described being a founder as a game: there's always another problem to figure out, and that's part of what he enjoys!\n\nWhen we caught up again a month later, he told me Plumb is something he'd love to work on for the next ten or twenty years!\n\nVery grateful for Karu Thompson sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-20-2026-karu-thompson-0.jpg",
+  "src/photos/stories/11-20-2026-karu-thompson-1.jpg"
+ ]
 }
 ];
