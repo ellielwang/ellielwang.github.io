@@ -1357,4 +1357,13 @@ export default [
   "src/photos/stories/11-20-2026-karu-thompson-1.jpg"
  ]
 }
+,
+{
+ "date": "11/21/2026",
+ "name": "erick turricelli",
+ "body": "Scrolling on LinkedIn brought me across the country!\n\nBack in July, I was scrolling on LinkedIn reading other people's posts, and I came across Tiago Monteiro's post on his experience in the Silicon Valley Fellowship, and I decided to apply out of curiosity.\n\nAfter my virtual interview in August, I finally got to meet the person on the other side of that call!\n\nThat interview was with Erick Turricelli, the co-founder of Gomry, an events and ticketing platform, and the company behind the Silicon Valley Fellowship.\n\nWe talked about my plans with Pitcher, a platform Anthony Wang and I are building where early-stage startups share their pitch, team, and what they're looking for, and what I'd been doing with my write ups on LinkedIn.\n\nI had my eye on startups and entrepreneurship, but I didn't really know how to get involved from Athens, Georgia, and I hadn’t been to the Bay Area.\n\nSo many of the amazing people I'd been meeting through my coffee chats, a side effect of this series over the past 130+ days, were based there, and I didn't know how I'd get there or get integrated.\n\nBut the fellowship finally gave me the opportunity to!\n\nWhen we finally met, he shared the mindset of someone who's started and built a successful company.\n\nWe talked about The IRONMAN Group triathlon, the swimming, biking, and running, and being mentally strong, and about being able to build a community of people.\n\nHe also told me there was once a program like the Silicon Valley Fellowship in Italy, but he wanted to build something like it for anyone, internationally.\n\nI got the opportunity to meet people from all different backgrounds and experiences, from undergraduates and master’s students to PhD candidates and postdocs from Italy, Portugal, Spain, the UAE, China, India, America, and many more countries!\n\nErick organized and planned events with offices like Google, Slash, Thrad, Newmark, depthfirst, and Entrepreneurs First, plus sessions at University of San Francisco and speakers at Stanford University.\n\nThese were places I likely wouldn't have gone to otherwise without this program, with guest speakers I learned so much from!\n\nVery grateful for Erick Turricelli sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-21-2026-erick-turricelli-0.jpg"
+ ]
+}
 ];

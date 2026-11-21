@@ -270,6 +270,7 @@ import i267 from "./photos/stories/11-18-2026-irene-sanders-0.jpg";
 import i268 from "./photos/stories/11-19-2026-noah-kostesku-0.jpg";
 import i269 from "./photos/stories/11-20-2026-karu-thompson-0.jpg";
 import i270 from "./photos/stories/11-20-2026-karu-thompson-1.jpg";
+import i271 from "./photos/stories/11-21-2026-erick-turricelli-0.jpg";
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -543,4 +544,5 @@ export default {
   "src/photos/stories/11-19-2026-noah-kostesku-0.jpg": i268,
   "src/photos/stories/11-20-2026-karu-thompson-0.jpg": i269,
   "src/photos/stories/11-20-2026-karu-thompson-1.jpg": i270,
+  "src/photos/stories/11-21-2026-erick-turricelli-0.jpg": i271,
 };
