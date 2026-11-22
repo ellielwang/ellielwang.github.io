@@ -1366,4 +1366,14 @@ export default [
   "src/photos/stories/11-21-2026-erick-turricelli-0.jpg"
  ]
 }
+,
+{
+ "date": "11/22/2026",
+ "name": "janine kong",
+ "body": "Months after commenting on a random Instagram reel about growth at a startup that I almost scrolled past, I was sitting in their office!\n\nWhen I visited the Ditto office in San Francisco, I got to sit down with Janine Kong and hear a little about how she'd gotten there.\n\nShe's from Taiwan, studied in China, and eventually moved to San Francisco to work as the Head of Marketing at Ditto.\n\nJanine told me about spending so much time studying and doing competitions while in school!\n\nBut she shared that it's not uncommon to feel confused or not know how to make room for fun.\n\nJanine reminded me to make time for fun, too.\n\nI appreciated hearing that from someone who's already done and accomplished so much over the years.\n\nWe were sitting in a startup office talking about her career, and she was also making sure I remembered to have fun along the way!\n\nJanine's helped create content that's hit millions of views, and she shared that sometimes those views don't necessarily turn into people signing up or using the product.\n\nHer advice was that getting someone's attention and getting them to try something can be different things!\n\nJanine also shared that she'd spent the past few years working on dating products across different markets.\n\nShe's still curious about how people connect, and she sometimes has more questions than answers.\n\nSeeing it in person felt so surreal, and getting to talk with Janine gave me a lot to think about.\n\nVery grateful for Janine Kong sharing her story with me, and for every person who has shown me the same thing: you just have to ask!\n\nP.S. shoutout to Elsa Cai for organizing this visit all the way from LA!",
+ "images": [
+  "src/photos/stories/11-22-2026-janine-kong-0.jpg",
+  "src/photos/stories/11-22-2026-janine-kong-1.jpg"
+ ]
+}
 ];
