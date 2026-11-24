@@ -1385,4 +1385,13 @@ export default [
   "src/photos/stories/11-23-2026-javier-zamora-0.jpg"
  ]
 }
+,
+{
+ "date": "11/24/2026",
+ "name": "jessica breaux",
+ "body": "How does a vocal performance major end up running a regenerative farm?\n\nJessica Breaux calls her own path \"a windy, windy road.\"\n\nShe studied vocal performance at FSU and Shorter College!\n\nYears later, at one of the last folk schools in North Georgia, she learned spinning, weaving, knitting, and natural dyeing.\n\nThe dyeing pulled her toward plants!\n\nNatural dyes come from them, so she wanted to grow her own dye plants.\n\nThen she wanted sheep, then she wanted a farm!\n\nShe found Piney Woods Farm and started in an admin role.\n\nShe kept taking classes and learning how the farm actually worked, from honeybees and sheep to composting, and she ended up creating the Discovery Center, a learning center right on the farm.\n\nToday, Jessica’s the farm's executive director and farm manager, and the nonprofit has earned USDA organic and regenerative agriculture certifications along the way.\n\nJessica shared with me that she learned by \"sitting at other people's feet,\" and now she tries to pass it on.\n\nAt the Discovery Center, students see what lives in the farm's soil under a microscope, then go out and get hands-on.\n\nVolunteers get her favorite formula: work hard for a little bit, play a little bit, and learn something before you go.\n\nJessica described one group using the weeds they'd pulled from the Discovery Garden to build a 'bug snug' with bamboo shafts, a habitat for pollinators over winter.\n\nEven weeding became a chance to learn about the insects sharing the garden!\n\nHer advice to any student who wants to get involved: get your hands in the dirt, find a local group, and reach out to farmers before the busy season.\n\nMost are happy to plug you in if you just say you're interested!\n\nVery grateful for Jessica Breaux sharing her story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-24-2026-jessica-breaux-0.jpg"
+ ]
+}
 ];
