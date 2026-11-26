@@ -1403,4 +1403,14 @@ export default [
   "src/photos/stories/11-25-2026-beth-everett-0.jpg"
  ]
 }
+,
+{
+ "date": "11/26/2026",
+ "name": "matthew li",
+ "body": "How do you go from one charity 5K to signing up for a half Ironman?\n\nFor Matthew Li, it started with watching someone else do what he'd thought was impossible!\n\nWhen Matthew and I talked, I learned that he'd tried a few different paths in college too.\n\nHe started with piano, chemical engineering, and biology, imagining himself becoming a pianist, an engineer, or a doctor.\n\nEventually, Matthew switched to computer science after some advice from friends!\n\nBut he wanted to start making those decisions for himself.\n\nAfter discovering product management through a creator's video, Matthew began having coffee chats every other day to learn more about it!\n\nHe simply just asked the product team at the company where he worked whether he could intern with them, even though they'd never had an intern before.\n\nThat became an internship, then part-time work, and eventually his full-time role as a product manager!\n\nNow, Matthew is figuring out something very different.\n\nHe told me about taking swim lessons at the YMCA of the USA, running a charity 5K, and preparing for his first half Ironman.\n\nHe's sharing what it's like to try, fail, and learn as he goes on his Instagram page!\n\nOne thing Matthew shared was the choice he faces on a run: whether to cut a corner when nobody would know, or finish the whole route.\n\nHe tries to choose the harder path, even without anyone watching, because that's what builds character!\n\nVery grateful for Matthew Li sharing his story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-26-2026-matthew-li-0.jpg",
+  "src/photos/stories/11-26-2026-matthew-li-1.jpg"
+ ]
+}
 ];

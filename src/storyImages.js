@@ -276,6 +276,8 @@ import i273 from "./photos/stories/11-22-2026-janine-kong-1.jpg";
 import i274 from "./photos/stories/11-23-2026-javier-zamora-0.jpg";
 import i275 from "./photos/stories/11-24-2026-jessica-breaux-0.jpg";
 import i276 from "./photos/stories/11-25-2026-beth-everett-0.jpg";
+import i277 from "./photos/stories/11-26-2026-matthew-li-0.jpg";
+import i278 from "./photos/stories/11-26-2026-matthew-li-1.jpg";
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -555,4 +557,6 @@ export default {
   "src/photos/stories/11-23-2026-javier-zamora-0.jpg": i274,
   "src/photos/stories/11-24-2026-jessica-breaux-0.jpg": i275,
   "src/photos/stories/11-25-2026-beth-everett-0.jpg": i276,
+  "src/photos/stories/11-26-2026-matthew-li-0.jpg": i277,
+  "src/photos/stories/11-26-2026-matthew-li-1.jpg": i278,
 };
