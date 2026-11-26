@@ -283,3 +283,36 @@ body { background: #fbe4ea; }
   .ew-secnav { padding: 14px 0; row-gap: 14px; }
   .ew-front { padding: 36px 0 8px; gap: 40px; }
 }
+/* clarity pass: intro, topic strip, topics grid, folded record, side nav */
+.ew-intro { margin: 0 0 22px; max-width: 42em; font-size: 18px; line-height: 1.5; color: var(--ink); }
+@media (max-width: 600px) { .ew-intro { font-size: 16px; } }
+.ew-marq { overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity; }
+.ew-marq::-webkit-scrollbar { display: none; }
+.ew-marq-track { animation: none !important; }
+.ew-marq-set[aria-hidden] { display: none; }
+.ew-topics { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0; border-top: 1px solid var(--line); }
+.ew-topic { display: flex; flex-direction: column; gap: 2px; padding: 18px 16px 18px 0; border-bottom: 1px solid var(--line); text-decoration: none; }
+.ew-topic b { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 500; line-height: 1.1; }
+.ew-topic small { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--soft); }
+.ew-topic:hover b { color: var(--accent); }
+.ew-fold { margin-top: 64px; border-top: 3px double var(--ink); border-bottom: 1px solid var(--ink); }
+.ew-fold > summary { cursor: pointer; list-style: none; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 18px 0; }
+.ew-fold > summary::-webkit-details-marker { display: none; }
+.ew-fold > summary span { font-family: 'Cormorant Garamond', serif; font-size: 36px; }
+.ew-fold > summary small { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.ew-fold[open] > summary { border-bottom: 1px solid var(--line); }
+.ew-fold > summary small::after { content: ' · tap to open'; }
+.ew-fold[open] > summary small::after { content: ' · tap to close'; }
+@media (max-width: 600px) { .ew-fold > summary { flex-direction: column; gap: 4px; } .ew-fold > summary span { font-size: 30px; } }
+.ew-fold > .ew-sect:first-of-type { margin-top: 24px; }
+.ew-side { display: none; }
+@media (min-width: 1480px) {
+  .ew-side { display: flex; flex-direction: column; gap: 4px; position: fixed; left: 28px; top: 40vh; z-index: 5; }
+  .ew-side button { background: none; border: 0; padding: 4px 0; text-align: left; cursor: pointer; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--soft); }
+  .ew-side button:hover { color: var(--accent); }
+}
+/* hierarchy: make the latest story the clear first stop */
+.ew-more { background: var(--ink); color: var(--bg); padding: 9px 20px; border-radius: 99px; margin-top: 16px; font-weight: 600; }
+.ew-leadbtn:hover .ew-more { background: var(--accent); }
+.ew-leadhl { font-weight: 600; }
+.ew-lead > .ew-label { color: var(--accent); font-weight: 600; }

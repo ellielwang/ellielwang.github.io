@@ -67,6 +67,7 @@ function Masthead() {
             <div className="ew-title"><h1 className="ew-h1"><Link to="/" className="ew-pub">you just have to ask</Link></h1><div className="ew-by">by Elizabeth (Ellie) Wang</div></div>
             <Lotus className="ew-mast-lotus" />
         </div>
+        <p className="ew-intro">I&rsquo;m Ellie, a UGA Management Information Systems student and co-founder of Pitcher. This is a collection of stories from conversations with founders, advocates and students.</p>
         <nav className="ew-secnav" aria-label="Sections">
             <div className="ew-marq">
                 <div className="ew-marq-track">
@@ -89,6 +90,15 @@ function Masthead() {
             </div>
         </nav>
     </header>;
+}
+
+function jump(id: string) {
+    const el = document.getElementById(id);
+    if (el) { if (el.tagName === 'DETAILS') (el as HTMLDetailsElement).open = true; el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+}
+function SideNav() {
+    const items: [string, string][] = [['latest', 'stories'], ["sections", "topics"], ['about', 'about'], ['record', 'full record'], ['newsletter', 'newsletter'], ['contact', 'contact']];
+    return <nav className="ew-side" aria-label="On this page">{items.map(([id, label]) => <button key={id} onClick={() => jump(id)}>{label}</button>)}</nav>;
 }
 
 function goNewsletter() {
@@ -130,6 +140,7 @@ function Home() {
     const next = newest.slice(1, 6);
     return <div className={'ew' + (React.useContext(ThemeCtx).dusk ? ' dusk' : '')}>
         <Masthead />
+        <SideNav />
         <main className="ew-wrap">
             <section className="ew-front">
                 <aside className="ew-rail">
@@ -165,22 +176,21 @@ function Home() {
                 <div><h3>building <u>community</u></h3><p>Co-founder and co-president of <b>Lotus Society</b>, a mentorship org for Asian American students at UGA</p></div>
             </section>
 
-            <section id="stories" className="ew-sect">
+            <section id="latest" className="ew-sect">
                 <div className="ew-shead"><h2>the newest <em>stories</em></h2><Link to="/stories">see all {all.length} &rarr;</Link></div>
                 <Row items={newest.slice(0, 24)} onOpen={setOpen} label="Latest stories" />
                 <p className="ew-hint"><span className="ew-h-d">use the arrows</span><span className="ew-h-m">swipe</span> &middot; tap a story to read it</p>
             </section>
 
-            <div id="sections" />
-            {SECTIONS.map((x) => {
-                const items = inSection(x.slug);
-                if (!items.length) return null;
-                return <section key={x.slug} className="ew-sect ew-secblock">
-                    <div className="ew-shead"><h2>{x.label}</h2><Link to={'/section/' + x.slug}>{items.length} {items.length === 1 ? 'story' : 'stories'} &rarr;</Link></div>
-                    <Row items={items.slice(0, 12)} onOpen={setOpen} label={x.label} />
-                </section>;
-            })}
+            <section className="ew-sect" id="sections">
+                <div className="ew-shead"><h2>browse by <em>topic</em></h2></div>
+                <div className="ew-topics">
+                    {SECTIONS.map((x) => { const n = inSection(x.slug).length; return n ? <Link key={x.slug} to={'/section/' + x.slug} className="ew-topic"><b>{x.label}</b><small>{n} {n === 1 ? 'story' : 'stories'}</small></Link> : null; })}
+                </div>
+            </section>
 
+            <details className="ew-fold" id="record">
+            <summary><span>the full record</span><small>work, experience, education, honors</small></summary>
             <section className="ew-sect" id="work">
                 <div className="ew-shead"><h2>in the <em>field</em></h2></div>
                 <div className="ew-trio">
@@ -203,7 +213,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="ew-sect" id="record">
+            <section className="ew-sect">
                 <div className="ew-shead"><h2>the full <em>record</em></h2></div>
                 <div className="ew-trio">
                     <div className="ew-tcol"><h3>experience</h3><ul>
@@ -263,6 +273,8 @@ function Home() {
                     </ul>
                 </div>
             </section>
+
+            </details>
 
             <section className="ew-row ew-about" id="about">
                 <div>
