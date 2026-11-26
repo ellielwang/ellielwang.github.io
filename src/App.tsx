@@ -196,7 +196,7 @@ function Home() {
                 <div className="ew-trio">
                     <div className="ew-tcol"><h3>venture + business</h3><ul>
                         <li><b>JSV Launchpad</b>, venture scout</li>
-                        <li><b>Todd AgriScience</b>, go-to-market intern</li>
+                        <li><b>Todd AgriScience</b>, go-to-market lead</li>
                         <li><b>Terry Student Consulting</b>, 1 of 40 from 225 applicants</li>
                         <li><b>UGA SMIS</b>, senior VP of finance</li>
                         <li>Intern Insider fellow, TextPip ambassador</li></ul></div>
@@ -217,9 +217,10 @@ function Home() {
                                 <div className="ew-trio">
                     <div className="ew-tcol"><h3>experience</h3><ul>
                         <li><b>Venture Scout</b>, Jackson Square Ventures<small>Nov 2026 to present</small>Building something cool? DM me!</li>
+                        <li><b>Fellow</b>, Girls Into VC</li>
                         <li><b>Claude Campus Ambassador</b>, NEXT GEN&middot;TEAM<small>Oct 2026 to present</small>Leading the Claude Builder Community at UGA</li>
                         <li><b>Co-Founder, Go-To-Market</b>, Pitcher<small>Jun 2026 to present</small>A founder discovery network for early startups</li>
-                        <li><b>Go-To-Market</b>, Todd<small>Aug 2026 to present</small>Interviews with people who run farms across New York, California, Utah, and Maryland. Instagram graphics for an ag-tech startup that raised pre-seed funding at a $40M valuation cap.</li>
+                        <li><b>Go-To-Market Lead</b>, Todd<small>Aug 2026 to present</small>Interviews with people who run farms across New York, California, Utah, and Maryland. Instagram graphics for an ag-tech startup that raised pre-seed funding at a $40M valuation cap.</li>
                         <li><b>Founding Growth @ UGA</b>, Ditto<small>Aug 2026 to present</small>Secured approval to put Ditto flyers up across UGA dorms and student centers. #1 cupid all time in the US.</li>
                         <li><b>Lucy Mission Ambassador</b>, L&rsquo;SPACE Program<small>Sep 2026 to present</small></li>
                         <li><b>Team Program Analyst (MCA)</b>, L&rsquo;SPACE Program<small>May 2026 to Aug 2026</small>Supporting a lunar surface mission concept focused on hazards in permanently shadowed regions, including dust, radiation, and impact risk. Driving schedule and cost estimation for the team&rsquo;s Preliminary Definition Review.</li>
