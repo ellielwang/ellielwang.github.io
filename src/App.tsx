@@ -217,12 +217,16 @@ function Home() {
                 <div className="ew-shead"><h2>the full <em>record</em></h2></div>
                 <div className="ew-trio">
                     <div className="ew-tcol"><h3>experience</h3><ul>
+                        <li><b>Venture Scout</b>, Jackson Square Ventures<small>Nov 2026 to present</small>Building something cool? DM me!</li>
                         <li><b>Claude Campus Ambassador</b>, NEXT GEN&middot;TEAM<small>Oct 2026 to present</small>Leading the Claude Builder Community at UGA</li>
                         <li><b>Co-Founder, Go-To-Market</b>, Pitcher<small>Jun 2026 to present</small>A founder discovery network for early startups</li>
-                        <li><b>Go-To-Market</b>, Todd<small>Aug 2026 to present</small>Interviews with people who run farms across New York, California, Utah, and Maryland. Instagram graphics for an ag-tech startup that raised pre-seed funding at a $40M valuation cap.</li>
+                        <li><b>Go-To-Market Lead</b>, Todd<small>Aug 2026 to present</small>Interviews with people who run farms across New York, California, Utah, and Maryland. Instagram graphics for an ag-tech startup that raised pre-seed funding at a $40M valuation cap.</li>
                         <li><b>Founding Growth @ UGA</b>, Ditto<small>Aug 2026 to present</small>Secured approval to put Ditto flyers up across UGA dorms and student centers. #1 cupid all time in the US.</li>
                         <li><b>Lucy Mission Ambassador</b>, L&rsquo;SPACE Program<small>Sep 2026 to present</small></li>
                         <li><b>Team Program Analyst (MCA)</b>, L&rsquo;SPACE Program<small>May 2026 to Aug 2026</small>Supporting a lunar surface mission concept focused on hazards in permanently shadowed regions, including dust, radiation, and impact risk. Driving schedule and cost estimation for the team&rsquo;s Preliminary Definition Review.</li>
+                        <li><b>Co-Founder &amp; Co-President</b>, Lotus Society<small>May 2026 to present</small></li>
+                        <li><b>Associate Consultant</b>, Terry Student Consulting<small>Apr 2026 to present</small>Selected as 1 of 40 students from 225 applicants to join a student-run, pro-bono consultancy serving local firms.</li>
+                        <li><b>VP of Finance</b>, Society for Management Information Systems, UGA<small>Oct 2025 to present</small></li>
                         <li><b>Team Principal Investigator (NPWEE)</b>, L&rsquo;SPACE Program<small>Jan 2026 to May 2026</small>Led a 10-member interdisciplinary team in the NASA-funded L&rsquo;SPACE NPWEE to develop a NASA-style mission concept addressing orbital debris mitigation.</li></ul></div>
                     <div className="ew-tcol"><h3>education</h3><ul>
                         <li><b>University of Georgia, Terry College of Business</b><small>Aug 2025 to May 2029</small>BBA in Management Information Systems, with Entrepreneurship and FinTech Certificates. Alpha Sigma Rho (Fundraising &amp; Philanthropy Chair), Magellan Program, Emerging Greek Leaders, Reed/Payne Community Council (Coordinator of Communications), UGA Trial Gardens, International Business Society, Society for Management Information Systems, Shop With A Bulldawg mentor, UGA Fencing Club, UGAHacks.</li>
