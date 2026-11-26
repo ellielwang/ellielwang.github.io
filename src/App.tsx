@@ -189,7 +189,7 @@ function Home() {
                 </div>
             </section>
 
-            <details className="ew-fold" id="record">
+            <details className="ew-fold" id="record" open>
             <summary><span>the full record</span><small>work, experience, education, honors</small></summary>
             <section className="ew-sect" id="work">
                 <div className="ew-shead"><h2>in the <em>field</em></h2></div>

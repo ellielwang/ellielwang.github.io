@@ -301,8 +301,6 @@ body { background: #fbe4ea; }
 .ew-fold > summary span { font-family: 'Cormorant Garamond', serif; font-size: 36px; }
 .ew-fold > summary small { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
 .ew-fold[open] > summary { border-bottom: 1px solid var(--line); }
-.ew-fold > summary small::after { content: ' · tap to open'; }
-.ew-fold[open] > summary small::after { content: ' · tap to close'; }
 @media (max-width: 600px) { .ew-fold > summary { flex-direction: column; gap: 4px; } .ew-fold > summary span { font-size: 30px; } }
 .ew-fold > .ew-sect:first-of-type { margin-top: 24px; }
 .ew-side { display: none; }
