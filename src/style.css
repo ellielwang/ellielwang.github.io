@@ -270,3 +270,16 @@ body { background: #fbe4ea; }
 .ew-vlogmonth { margin-top: 28px; }
 .ew-vlogmonth h3 { font-family: inherit; font-weight: 500; font-size: 20px; margin: 0 0 4px; }
 .ew-vlognote { margin: 0 0 6px; color: var(--soft); font-size: 14px; font-style: italic; }
+/* more breathing room in the top content area */
+.ew-topline { padding: 20px 0; }
+.ew-brandrow { padding: 36px 0 32px; }
+.ew-by { margin-top: 14px; }
+.ew-secnav { padding: 18px 0; }
+.ew-front { padding: 56px 0 16px; }
+.ew-lead > .ew-label { margin-bottom: 22px; }
+@media (max-width: 820px) {
+  .ew-topline { padding: 16px 0; }
+  .ew-brandrow { padding: 26px 0 24px; }
+  .ew-secnav { padding: 14px 0; row-gap: 14px; }
+  .ew-front { padding: 36px 0 8px; gap: 40px; }
+}
