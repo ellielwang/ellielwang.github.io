@@ -1413,4 +1413,13 @@ export default [
   "src/photos/stories/11-26-2026-matthew-li-1.jpg"
  ]
 }
+,
+{
+ "date": "11/27/2026",
+ "name": "samyuktha vijayakumar nair",
+ "body": "How did a fifth grader from New Jersey end up spending time with dairy farmers?\n\nFor Samyuktha Vijayakumar Nair (Sam for short!), food advocacy started young. She joined a dairy advocacy program in fifth grade and got to spend time learning from farmers!\n\nYears later at Rutgers, Sam started in cognitive science before switching to business analytics and IT with a food science minor. Even with that change, she kept finding her way back to food science classes.\n\nSam told me about looking for opportunities in agritech and food startups. She found someone sharing their work on LinkedIn and sent a DM. That message turned into a call, and the call turned into an interview!\n\nI loved hearing that because sending the first message can feel like such a small thing. You don't know whether someone will respond, let alone where the conversation might go.\n\nIn August, Sam started the TRACE network to interview people in food science and related fields. Her first guest was her high school mentor, who was developing a soup product from her research.\n\nSam kept asking questions and meeting people. She told me that asking at the end of conversations had even opened opportunities to visit labs!\nWhen we spoke, Sam was interested in longevity research and building in biotech and deep tech. Food science had stayed with her through different classes, conversations, and ideas about what she wanted to do next.\nWhat I enjoyed about Sam's story was how she kept following that interest. From learning alongside dairy farmers in fifth grade to reaching out to people working in the field now, she kept finding ways to get a little closer to it.\n\nVery grateful for Samyuktha Vijayakumar Nair sharing her story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-27-2026-samyuktha-vijayakumar-nair-0.jpg"
+ ]
+}
 ];
