@@ -76,14 +76,12 @@ function Masthead() {
                         {SECTIONS.map((x) => <Link key={x.slug} to={'/section/' + x.slug} tabIndex={k === 1 ? -1 : undefined}>{x.label}</Link>)}
                         <Link to="/stories" tabIndex={k === 1 ? -1 : undefined}>all stories</Link>
                         <Link to="/diary" tabIndex={k === 1 ? -1 : undefined}>digital diary</Link>
-                        <Link to="/watch" tabIndex={k === 1 ? -1 : undefined}>watch</Link>
                         <Link to="/youtube" tabIndex={k === 1 ? -1 : undefined}>youtube</Link>
                     </div>)}
                 </div>
             </div>
             <div className="ew-navfix">
                 <button className="ew-navbtn" onClick={goNewsletter}>newsletter</button>
-                <Link to="/watch">watch</Link>
                 <Link to="/youtube">youtube</Link>
                 <a href="#about">about</a>
                 <a href="#contact">contact</a>
