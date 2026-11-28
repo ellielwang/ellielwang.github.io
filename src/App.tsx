@@ -291,7 +291,7 @@ function Home() {
                 </div>
             </section>
 
-            <Newsletter /><Contact />
+            <Contact /><Newsletter />
             <Foot />
         </main>
         {open && <StoryModal story={open} onClose={() => setOpen(null)} />}
@@ -315,10 +315,8 @@ function Newsletter() {
             else setState('err');
         } catch (_) { setState('err'); }
     };
-    return <section className="ew-sect ew-news" id="newsletter">
-        <Lotus className="ew-news-lotus" />
-        <div className="ew-shead"><h2>the <em>&quot;You Just Have to Ask&quot;</em> newsletter</h2></div>
-        <p className="ew-clede">New stories in your inbox, so you never have to catch every post. Free, no paywall.</p>
+    return <section className="ew-sect ew-news ew-news-small" id="newsletter">
+        <p className="ew-nlabel">join my email list</p>
         <form className="ew-nform" onSubmit={submit}>
             <input type="email" required value={email} onChange={(e) => { setEmail(e.target.value); if (state !== 'sending') setState('idle'); }} placeholder="you@email.com" aria-label="email address" />
             <button type="submit" disabled={state === 'sending'}>{state === 'sending' ? 'sending' : 'subscribe'}</button>
