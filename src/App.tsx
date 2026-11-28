@@ -64,7 +64,7 @@ function Masthead() {
             <span className="ew-tl-right"><button className="ew-sub" onClick={goNewsletter}>subscribe</button><button className="ew-mode" onClick={toggle} aria-pressed={dusk} aria-label={dusk ? 'Switch to day mode' : 'Switch to dusk mode'}><Lotus className="ew-btn-lotus" />{dusk ? 'day' : 'dusk'}</button></span>
         </div>
         <div className="ew-brandrow">
-            <div className="ew-title"><h1 className="ew-h1"><Link to="/" className="ew-pub">you just have to ask</Link></h1><div className="ew-by">by Elizabeth (Ellie) Wang</div></div>
+            <div className="ew-title"><h1 className="ew-h1"><Link to="/" className="ew-pub">You Just Have to Ask</Link></h1><div className="ew-by">by Elizabeth (Ellie) Wang</div></div>
             <Lotus className="ew-mast-lotus" />
         </div>
         <p className="ew-intro">I&rsquo;m Ellie, a UGA Management Information Systems student and co-founder of Pitcher. This is a collection of stories from conversations with founders, advocates and students.</p>
@@ -319,7 +319,7 @@ function Newsletter() {
     };
     return <section className="ew-sect ew-news" id="newsletter">
         <Lotus className="ew-news-lotus" />
-        <div className="ew-shead"><h2>the <em>&quot;you just have to ask&quot;</em> newsletter</h2></div>
+        <div className="ew-shead"><h2>the <em>&quot;You Just Have to Ask&quot;</em> newsletter</h2></div>
         <p className="ew-clede">New stories in your inbox, so you never have to catch every post. Free, no paywall.</p>
         <form className="ew-nform" onSubmit={submit}>
             <input type="email" required value={email} onChange={(e) => { setEmail(e.target.value); if (state !== 'sending') setState('idle'); }} placeholder="you@email.com" aria-label="email address" />
