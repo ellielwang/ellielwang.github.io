@@ -249,7 +249,7 @@ function Home() {
                     <div className="ew-shead"><h2>about the <em>series</em></h2></div>
                     <p>My daily storytelling series on LinkedIn: one story every day since July 4, 2026, posted at 12:12 PM ET. I talk with founders, advocates, students, and anyone with a passion for helping the world.</p>
                     <p>I take handwritten notes during conversations, and guests review their stories before publication. It started because I wanted to give my mentors their flowers. It kept going because everyone has a story worth telling.</p>
-                    <blockquote><span lang="zh-Hant" className="ew-zh">水滴石穿</span></blockquote>
+                    <blockquote><span lang="zh-Hant" className="ew-zh">水滴石穿</span><span className="ew-zh-en">Dripping water pierces stone: steady persistence can accomplish what force cannot.</span></blockquote>
                     <a className="ew-link" href="https://www.linkedin.com/in/ellielwang" target="_blank" rel="noreferrer">read the series on LinkedIn</a>
                 </div>
                 <div>
@@ -257,6 +257,7 @@ function Home() {
                     <h3 className="ew-small">honors</h3>
                     <ul className="ew-honors">
                         <li>EY SAP S/4HANA Case Competition<span>2nd</span></li>
+                        <li>Bain &amp; Company x Terry Student Consulting Case Competition<span>finalist, cluster runner-up</span></li>
                         <li>Goldman Sachs Case Competition<span>top 5</span></li>
                         <li>Global Health Union Case Competition<span>top 2</span></li>
                         <li>SHRM Case Competition<span>top 4</span></li>

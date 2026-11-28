@@ -318,3 +318,5 @@ body { background: #fbe4ea; }
 .ew-news-small { padding-top: 28px; padding-bottom: 36px; }
 .ew-news-small .ew-nlabel { margin: 0; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .75; }
 .ew-news-small .ew-nform { margin-top: 12px; }
+
+.ew-zh-en { display: block; font-size: 16px; line-height: 1.4; margin-top: 4px; opacity: .8; }
