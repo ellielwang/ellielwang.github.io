@@ -1421,5 +1421,13 @@ export default [
  "images": [
   "src/photos/stories/11-27-2026-samyuktha-vijayakumar-nair-0.jpg"
  ]
+},
+{
+ "date": "11/28/2026",
+ "name": "diya balagopal",
+ "body": "What happens when a middle schooler keeps showing up at city council every Tuesday?\n\nFor Diya Balagopal, it started with birds!\n\nShe simply just wanted her city to dim its lights during migration season, and she kept coming back to ask.\n\nDiya reached out to Cornell's ornithology lab, collected data, and built a platform to gather more of it.\n\nShe brought what she was learning back to the city council until they agreed to try a pilot. Her work even led to a city proclamation!\n\nI truly loved hearing about the steps she took between that first ask and getting a pilot started.\n\nDiya didn't have all the information when she began: she reached out to people who knew more, did the research, and kept showing up with something new to share!\n\nThat interest in conservation also led Diya to start a startup at 16.\n\nAfter a drought in Dallas brought water restrictions, she began looking into how much water went toward maintaining lawns.\n\nDiya told me about developing a grass seed that needs less water and maintenance, and having the work recognized by the Department of Energy.\n\nWhen we spoke, I learned that Diya’s been studying in Berkeley's M.E.T. program and working on her next idea!\n\nHer advice was to talk to people older than you and ask for help: they've experienced things you haven't, and there's so much you can learn by having those conversations.\n\nSometimes, some people might not be interested, but you can still ask the next person!\n\nVery grateful for Diya Balagopal sharing her story with me, and for every person who has shown me the same thing: you just have to ask!",
+ "images": [
+  "src/photos/stories/11-28-2026-diya-balagopal-0.jpg"
+ ]
 }
 ];

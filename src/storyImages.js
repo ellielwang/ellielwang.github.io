@@ -279,6 +279,7 @@ import i276 from "./photos/stories/11-25-2026-beth-everett-0.jpg";
 import i277 from "./photos/stories/11-26-2026-matthew-li-0.jpg";
 import i278 from "./photos/stories/11-26-2026-matthew-li-1.jpg";
 import i279 from "./photos/stories/11-27-2026-samyuktha-vijayakumar-nair-0.jpg";
+import i280 from "./photos/stories/11-28-2026-diya-balagopal-0.jpg";
 
 export default {
   "src/photos/stories/10-1-2026-nicholas-low-0.jpg": i0,
@@ -561,4 +562,5 @@ export default {
   "src/photos/stories/11-26-2026-matthew-li-0.jpg": i277,
   "src/photos/stories/11-26-2026-matthew-li-1.jpg": i278,
   "src/photos/stories/11-27-2026-samyuktha-vijayakumar-nair-0.jpg": i279,
+  "src/photos/stories/11-28-2026-diya-balagopal-0.jpg": i280,
 };
